@@ -1,0 +1,5 @@
+#+TITLE: Jarizleifr
+* About me
+I code stuff
+* Projects
+I've coded stuff before as well
