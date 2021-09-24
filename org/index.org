@@ -1,5 +1,11 @@
 #+TITLE: Jarizleifr
 * About me
-I code stuff
+I'm a 33-year-old computer tech enthusiast from Tampere, Finland. I've been tinkering with software since the early 90s, starting with games modding and 3D graphics, ultimately working my way up towards serious game and web development.
+
+
+- First computer? :: an IBM PS/1 in the early 90s, either model 2011 or 2121
+- First programming language? :: Object Pascal with Borland Delphi 3.0
+- Emacs or Vim? :: Among the stars aboard the Evil flagship!
+- Favorite animal? :: [[https://en.wikipedia.org/wiki/Pallas%27s_cat][Pallas's cat]]. I donate monthly towards their conservation efforts.
 * Projects
-I've coded stuff before as well
+[[file:./dregsrealm.org][Dregsrealm]]

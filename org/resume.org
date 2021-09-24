@@ -1,0 +1,34 @@
+#+TITLE: Antti Joutsi | Resume
+* Mission
+Most recently I've been working with technologies like C#/.NET, SDL2, React, Next.js and Typescript.
+I'm currently improving my competence with Rust and OpenGL.
+* Skills
+** Core proficiency
+I've about 3-5 years of professional experience in software development, plenty more of tinkering in a more relaxed setting.
+I have also done some freelance work as an artist.
+*** Technologies
+- C#
+- .NET
+- SDL2
+- JavaScript
+- TypeScript
+- Node.js
+- Python
+- Unity 3D
+- Rust
+- Docker
+- Java
+- Spring Framework
+
+  
+I mainly use Git for version control.
+* Work Experience
+** Software Developer - Vincit Oyj
+** Sotware Engineer - Sasken Finland Oy
+** Game Programmer - Digital Hammer Oy
+** Library Assistant - Karhulan kirjasto
+** District Heating Fitter - Eltel Networks Oy
+* Education
+** Code Academy
+** Bachelor of Digital Media - XAMK
+** Gymnasium - Kotkan aikuislukio
