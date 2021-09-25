@@ -1,12 +1,18 @@
 #+TITLE: Antti Joutsi | Resume
 * Mission
+  
 Most recently I've been working with technologies like C#/.NET, SDL2, React, Next.js and Typescript.
 I'm currently improving my competence with Rust and OpenGL.
+
 * Skills
+  
 ** Core proficiency
+   
 I've about 3-5 years of professional experience in software development, plenty more of tinkering in a more relaxed setting.
 I have also done some freelance work as an artist.
+
 *** Technologies
+    
 - C#
 - .NET
 - SDL2
@@ -23,12 +29,28 @@ I have also done some freelance work as an artist.
   
 I mainly use Git for version control.
 * Work Experience
-** Software Developer - Vincit Oyj
-** Sotware Engineer - Sasken Finland Oy
-** Game Programmer - Digital Hammer Oy
-** Library Assistant - Karhulan kirjasto
-** District Heating Fitter - Eltel Networks Oy
+** Vincit Oyj - Tampere, Finland
+*** Software Developer - Full-time - December 2019 -- Present
+- Full-stack web development
+** Sasken Finland Oy - Tampere, Finland
+*** Software Engineer - Internship - March 2019 -- September 2019
+- Full-stack web development
+** Digital Hammer Oy - Lahti, Finland
+*** Game Programmer - Internship - May 2015 -- August 2015
+- Project Maxine
+** Karhulan kirjasto - Kotka, Finland
+*** Library Assistant - Internship - September 2010 -- February 2011
+- Worked as a general library assistant, responsible for cataloguing, shelving and customer service.
+- Working with media database software and retrieving information on any subject on request.
+** Eltel Networks Oy - Kotka, Finland
+*** District Heating Fitter - June--July | 2005, 2006, 2007
+- A summer job for three consecutive summers.
+- Assisting in maintenance of district heating networks.
 * Education
-** Code Academy
-** Bachelor of Digital Media - XAMK
-** Gymnasium - Kotkan aikuislukio
+** Course: Code Academy 2019 - Tampere, Finland
+** South-Eastern Finland University of Applies Sciences - XAMK
+*** Bachelor of Culture and Arts - 2017
+- Majored in Digital Media and Game Design
+** Kotkan aikuislukio - Kotka, Finland
+*** Finnish Matriculation Examination - 2012
+- Gymnasium, higher general education

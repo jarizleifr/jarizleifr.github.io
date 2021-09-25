@@ -1,0 +1,8 @@
+#+TITLE: New beginnings
+#+DESCRIPTION: I decided to reboot my portfolio page\, this time done entirely with Emacs org-mode and some CSS.
+
+I decided to reboot my portfolio page, this time done entirely with Emacs org-mode and some CSS.
+
+There's some satisfaction in using tools in a correct manner, not even trying to break the limitations of the document model, but instead accept it as-is, and org-mode by default excels in writing documents.
+
+I've used static site generators like [[http://nextjs.org][Next.js]] or [[https://www.11ty.dev][11ty]] before, but not having to write even a single line of JavaScript for a static web page feels so good.
