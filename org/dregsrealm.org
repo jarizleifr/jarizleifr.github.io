@@ -1,2 +1,6 @@
 #+TITLE: Dregsrealm
-A roguelike game about being a hero in a Vancian world
+
+Dregsrealm is my magnum opus. I've been working on this project since 2016 and it has gone through multiple iterations, slowly growing with my skills and getting more and more ambitious.
+
+A roguelike game about being a hero in a Vancian world.
+

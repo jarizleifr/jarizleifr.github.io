@@ -1,18 +1,14 @@
 (require 'ox-publish)
 
 (setq site-nav "<nav><ol>
-<li><a href=\"./index.html\">Blog</a></li>
+<li><a href=\"./index.html\">Home</a></li>
 <li><a href=\"./posts/archive.html\">Archive</a></li>
-<li><a href=\"./work.html\">Work</a></li>
-<li><a href=\"./about.html\">About</a></li>
 <li><a href=\"./resume.html\">Resume</a></li>
 </ol></nav>")
 ;; These should be replaced with "/index.html" style root paths once main layouts are finished
 (setq site-nav-post "<nav><ol>
-<li><a href=\"../index.html\">Blog</a></li>
+<li><a href=\"../index.html\">Home</a></li>
 <li><a href=\"./archive.html\">Archive</a></li>
-<li><a href=\"../work.html\">Work</a></li>
-<li><a href=\"../about.html\">About</a></li>
 <li><a href=\"../resume.html\">Resume</a></li>
 </ol></nav>")
 (setq site-style "<link rel=\"stylesheet\" href=\"./css/style.css\" type=\"text/css\"/>")
@@ -28,11 +24,10 @@
   (let ((filename (org-publish-find-title entry project))) 
     (if (= (length filename) 0) 
         (format "*%s*" entry) 
-      (format "[[file:%s][%s]] {{{timestamp(%s)}}} {{{excerpt(%s)}}}" entry
-              filename (format-time-string "%Y-%m-%d" (org-publish-find-date entry project)) 
-              (org-publish-find-property entry 
-                                         :description project 
-                                         'html)))))
+      (format "{{{timestamp(%s)}}} [[file:%s][%s]]" (format-time-string "%Y-%m-%d"
+                                                                        (org-publish-find-date entry
+                                                                                               project))
+              entry filename))))
 
 (setq org-publish-project-alist `(("pages" :base-directory "org/" 
                                    :base-extension "org" 
@@ -41,6 +36,7 @@
                                    :headline-levels 4 
                                    :recursive nil 
                                    :with-toc nil 
+                                   :title nil 
                                    :section-numbers nil 
                                    :html-doctype "html5" 
                                    :html-html5-fancy t 

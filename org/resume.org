@@ -1,56 +1,102 @@
-#+TITLE: Antti Joutsi | Resume
+#+TITLE: Resume
 * Mission
-  
-Most recently I've been working with technologies like C#/.NET, SDL2, React, Next.js and Typescript.
-I'm currently improving my competence with Rust and OpenGL.
+
+I'm currently employed at *Vincit Oyj* as an IT-consultant, working on customer projects. Most recently I've been working mainly on frontends, using *React*, *Next.js* and *TypeScript*. Looking forward to working on a more full-stack or backend focused roles in the future.
+
+I love learning new things, so I'm constantly building up my competence for future endeavours and just for fun. Currently I'm touching up my skills with *Lisp*, *Rust* and *OpenGL*.
 
 * Skills
-  
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: skills
+  :END:  
 ** Core proficiency
-   
-I've about 3-5 years of professional experience in software development, plenty more of tinkering in a more relaxed setting.
-I have also done some freelance work as an artist.
+  
+I've about 4 years of professional experience in game and software development. I'm most proficient with *C#*, which I've used to develop my game Dregsrealm since 2016. I've also plenty of experience with *TypeScript* and *React*. I've been in a few professional *Java* projects that used *Spring Framework*.
 
-*** Technologies
-    
+*Python* I use mostly for small personal utilities, *C* and *C++* I've occasionally tinkered with, but I kinda feel more the drift towards *Rust*.
+
+I have also done some freelance work as an artist, doing album covers and posters for bands. I've some experience from audiovisual recording and editing and I've played music (guitar, keyboards) for about 20 years.
+
+*** Programming
 - C#
 - .NET
-- SDL2
-- JavaScript
 - TypeScript
+- React
+- Next.js
 - Node.js
 - Python
-- Unity 3D
 - Rust
-- Docker
 - Java
 - Spring Framework
-
   
-I mainly use Git for version control.
+*** Platforms
+- AWS
+- Shopify
+  
+*** Graphics and Game Engines
+- SDL2
+- Unity 3D
+- Blender
+- Adobe InDesign
+- Adobe Illustrator
+- Adobe Photoshop
+
+*** Tools
+- Cmder
+- Emacs
+- Visual Studio Code
+- Git
+- Docker
+  
 * Work Experience
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: experience
+  :END:
 ** Vincit Oyj - Tampere, Finland
-*** Software Developer - Full-time - December 2019 -- Present
-- Full-stack web development
+*** Dec 2019 -- Present - Software Developer - Full-time
+- Full-stack web development with a dash of design
 ** Sasken Finland Oy - Tampere, Finland
-*** Software Engineer - Internship - March 2019 -- September 2019
-- Full-stack web development
+*** Mar 2019 -- Sep 2019 - Software Engineer - Internship
+- Agile full-stack web development
+- Worked on an in-house project, which included:
+  - A back-end server written in *Java* and *Spring Framework*
+  - An IoT-device which communicated with the server via *MQTT*
+  - An administrative frontend made with *React* and *Material UI*
+  - A separate user-facing frontend
+- Responsible for creating the admin frontend and refactoring the back-end server, by adding *JUnit* unit- and integration tests and cleaning up the implementation throughout the codebase 
 ** Digital Hammer Oy - Lahti, Finland
-*** Game Programmer - Internship - May 2015 -- August 2015
-- Project Maxine
+*** May 2015 -- Aug 2015 - Game Programmer - Internship
+- A school internship project, where I worked as the sole programmer in a small team of digital media students
+- Our team produced a demo game called Maxine Mafiabots Inc., a classic-style 2D-platformer with hand-drawn graphics and animations
+- The game was written in *GML*, using *Game Maker: Studio*
+- I was responsible for all the programming and technical direction of the game
+- Also contributed extensively to level and gameplay design
 ** Karhulan kirjasto - Kotka, Finland
-*** Library Assistant - Internship - September 2010 -- February 2011
-- Worked as a general library assistant, responsible for cataloguing, shelving and customer service.
-- Working with media database software and retrieving information on any subject on request.
+*** Sep 2010 -- Feb 2011 - Library Assistant - Internship
+- Responsible for shelving/cataloguing media and customer service
 ** Eltel Networks Oy - Kotka, Finland
-*** District Heating Fitter - June--July | 2005, 2006, 2007
-- A summer job for three consecutive summers.
-- Assisting in maintenance of district heating networks.
+*** 2005, 2006, 2007 | Jun--Jul - District Heating Fitter - Internship
+- A summer job for three consecutive summers
+- Responsible for maintenance of district heating networks
 * Education
-** Course: Code Academy 2019 - Tampere, Finland
-** South-Eastern Finland University of Applies Sciences - XAMK
-*** Bachelor of Culture and Arts - 2017
-- Majored in Digital Media and Game Design
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: experience
+  :END: 
+** XAMK - Kouvola, Finland
+*** 2017 - Bachelor of Culture and Arts
+- Majored in *Digital Media* and *Game Design*
+- Took extra courses on programming as remote studies from *Metropolia AMK*
+- Bachelor's thesis on post-apocalyptic worldbuilding received best possible grade
 ** Kotkan aikuislukio - Kotka, Finland
-*** Finnish Matriculation Examination - 2012
-- Gymnasium, higher general education
+*** 2012 - Finnish Matriculation Examination
+- Higher general education (upper secondary school / gymnasium)
+- Mathematics, history, natural sciences, social studies, culture
+- Excelled especially in English studies, art and music
+* Courses
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: experience
+  :END: 
+** 2019 - Code Academy - Tampere Finland
+- A 6 month course of intensive web development training, arranged by *Saranen Consulting Oy*
+- Was among the 14 chosen of ~120 applicants
+- Worked at *Sasken Finland Oy* as a software engineer during the program

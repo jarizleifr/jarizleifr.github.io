@@ -1,2 +1,0 @@
-#+TITLE: Projects
-[[file:./dregsrealm.org][Dregsrealm]]

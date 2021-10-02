@@ -1,4 +1,4 @@
 #+TITLE: Archive
 
-- [[file:post_1.org][New beginnings]] {{{timestamp(2021-09-25)}}} {{{excerpt(I decided to reboot my portfolio page\, this time done entirely with Emacs org-mode and some CSS.)}}}
-- [[file:post_2.org][Some other post]] {{{timestamp(2021-09-24)}}} {{{excerpt(nil)}}}
+- {{{timestamp(2021-09-25)}}} [[file:ranged_combat_in_dregsrealm.org][Ranged combat in Dregsrealm]]
+- {{{timestamp(2021-09-25)}}} [[file:new_beginnings.org][New beginnings]]

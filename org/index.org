@@ -1,5 +1,37 @@
-#+TITLE: Jarizleifr
+#+TITLE: Jarizleifr's Web of Weird
+* Latest posts
+  
 #+HTML: <div class="posts">
 #+INCLUDE: "posts/archive.org" :lines "3-8"
 #+HTML: </div>
 [[file:posts/archive.org][Archive]]
+
+* Projects
+  
+[[file:dregsrealm.org][Dregsrealm]]
+
+* About Me
+  
+#+HTML: <div class="columns">
+
+#+NAME: Jarizleifr
+[[./img/jarizleifr.jpg]]
+
+#+HTML: <div>
+My name is Antti Joutsi (aka Jarizleifr) and I'm a computer tech enthusiast and an artist from Tampere, Finland.
+
+I've been developing an old-school roguelike game called Dregsrealm as an independent developer since 2016, I do all the code, game design, graphics and music myself. I'm also employed as a tech consultant, having worked mostly on administrative frontends, webshops and e-commerce.
+
+I'm a proponent of Zen Buddhism, I paint (mostly with acrylics and goauche) and I believe in empathy, compassion and self-betterment.
+
+I write about various topics that interest me, especially about game development, technology, my personal philosophy and other artistic endeavours.
+
+#+HTML: </div></div>
+
+** FAQ
+  
+- First computer? :: An IBM PS/1 in the early 90s, either model 2011 or 2121.
+- First programming language? :: Object Pascal with Borland Delphi 3.0, around 1997--1998.
+- Emacs or Vim? :: Why not both? Among the stars aboard the Evil flagship!
+- Favorite animal? :: [[https://en.wikipedia.org/wiki/Pallas%27s_cat][Manul, or the Pallas's cat]]. I donate monthly towards their conservation efforts.
+

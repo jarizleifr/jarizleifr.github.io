@@ -1,0 +1,12 @@
+#+TITLE: Ranged combat in Dregsrealm
+#+CATEGORY: dregsrealm
+
+One of the bigger features still missing from Dregsrealm is ranged combat. After revamping my effects system, plenty of monsters got some quite nasty status-effect causing melee attacks, so being able to pick them out from afar started becoming a necessity.
+
+I did implement a quick and dirty prototype of that when I was still running the game in libtcod, so I have a pretty good idea of how to implement stuff like projectile queues and animations, but turning the actual ranged weaponry into ECS components turned out to be more complex issue than I anticipated.
+
+Currently I have separate components for ~C_RangedAttack~ and ~C_RangedWeapon~. ~C_RangedAttack~ is common to creatures, weapon items and ammunition items, while ~C_RangedWeapon~ is only available for creatures and weapon items. The problem I'm trying to solve here is how to get some base value from the creature, modify it with the weapon value and then modify it again with the ammunition value.
+
+For example, a person might have a talent that decreases their spread with a particular weapon, they might use a weapon that is by default very inaccurate, but again they might use ammunition that decreases weapon spread. Then the person drinks a sharpshooter potion to make themselves even more accurate. So the ~spread~ value absolutely needs to be cached on the Creature entity. But it needs to be cached on the weapon, on the ammunition, on the talent effect and on the potion effect as well...
+
+I really should just try to get some sort of naive implementation done, but once again I got stuck trying to figure out the best struct layout so I wouldn't need more than two components to solve this.

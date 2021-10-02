@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2021-10-02 Sat 12:30 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ranged combat in Dregsrealm</title>
+<meta name="generator" content="Org mode">
+<link rel="stylesheet" href="../css/style.css" type="text/css"/>
+</head>
+<body>
+<div id="preamble" class="status">
+<nav><ol>
+<li><a href="../index.html">Home</a></li>
+<li><a href="./archive.html">Archive</a></li>
+<li><a href="../resume.html">Resume</a></li>
+</ol></nav>
+</div>
+<div id="content">
+<header>
+<h1 class="title">Ranged combat in Dregsrealm</h1>
+</header><p>
+One of the bigger features still missing from Dregsrealm is ranged combat. After revamping my effects system, plenty of monsters got some quite nasty status-effect causing melee attacks, so being able to pick them out from afar started becoming a necessity.
+</p>
+
+<p>
+I did implement a quick and dirty prototype of that when I was still running the game in libtcod, so I have a pretty good idea of how to implement stuff like projectile queues and animations, but turning the actual ranged weaponry into ECS components turned out to be more complex issue than I anticipated.
+</p>
+
+<p>
+Currently I have separate components for <code>C_RangedAttack</code> and <code>C_RangedWeapon</code>. <code>C_RangedAttack</code> is common to creatures, weapon items and ammunition items, while <code>C_RangedWeapon</code> is only available for creatures and weapon items. The problem I'm trying to solve here is how to get some base value from the creature, modify it with the weapon value and then modify it again with the ammunition value.
+</p>
+
+<p>
+For example, a person might have a talent that decreases their spread with a particular weapon, they might use a weapon that is by default very inaccurate, but again they might use ammunition that decreases weapon spread. Then the person drinks a sharpshooter potion to make themselves even more accurate. So the <code>spread</code> value absolutely needs to be cached on the Creature entity. But it needs to be cached on the weapon, on the ammunition, on the talent effect and on the potion effect as well&#x2026;
+</p>
+
+<p>
+I really should just try to get some sort of naive implementation done, but once again I got stuck trying to figure out the best struct layout so I wouldn't need more than two components to solve this.
+</p>
+</div>
+<div id="postamble" class="status">
+<footer>Copyright © 2021 Antti Joutsi</footer>
+</div>
+</body>
+</html>
