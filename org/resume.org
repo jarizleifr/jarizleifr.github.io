@@ -82,6 +82,11 @@ I have also done some freelance work as an artist, doing album covers and poster
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: experience
   :END: 
+** Courses
+*** 2019 - Code Academy - Tampere Finland
+- A 6 month course of intensive web development training, arranged by *Saranen Consulting Oy*
+- Was among the 14 chosen of ~120 applicants
+- Worked at *Sasken Finland Oy* as a software engineer during the program
 ** XAMK - Kouvola, Finland
 *** 2017 - Bachelor of Culture and Arts
 - Majored in *Digital Media* and *Game Design*
@@ -92,11 +97,3 @@ I have also done some freelance work as an artist, doing album covers and poster
 - Higher general education (upper secondary school / gymnasium)
 - Mathematics, history, natural sciences, social studies, culture
 - Excelled especially in English studies, art and music
-* Courses
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: experience
-  :END: 
-** 2019 - Code Academy - Tampere Finland
-- A 6 month course of intensive web development training, arranged by *Saranen Consulting Oy*
-- Was among the 14 chosen of ~120 applicants
-- Worked at *Sasken Finland Oy* as a software engineer during the program

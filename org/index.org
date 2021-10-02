@@ -20,7 +20,7 @@
 #+HTML: <div>
 My name is Antti Joutsi (aka Jarizleifr) and I'm a computer tech enthusiast and an artist from Tampere, Finland.
 
-I've been developing an old-school roguelike game called Dregsrealm as an independent developer since 2016, I do all the code, game design, graphics and music myself. I'm also employed as a tech consultant, having worked mostly on administrative frontends, webshops and e-commerce.
+I've been developing an old-school roguelike game called Dregsrealm as an independent developer since 2016, I do all the code, game design, graphics and music myself. I'm also employed as a tech consultant, having worked mostly on administrative front-ends, webshops and e-commerce.
 
 I'm a proponent of Zen Buddhism, I paint (mostly with acrylics and goauche) and I believe in empathy, compassion and self-betterment.
 
