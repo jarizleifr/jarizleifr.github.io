@@ -1,0 +1,28 @@
+#+TITLE: On workflows
+
+** Origins
+
+I've been a Windows user since time immemorial. No other reason really, but that I had no exposure to any other system when I was growing up. I started with MS-DOS and just worked my way up and today I'm on Windows 10. My first experience with an Apple computer was at 24 years old, when studying design at XAMK. The machine just felt and seemed alien to me. I did try out Linux a few times when I had some laptops lying around, but I've never used it as a primary system.
+
+My curiosity towards Linux has been slowly growing these last years however. Since I started working at Vincit, I've been introduced to myriad ways of working, which has resulted me piecing together a workflow of my own, that I try to improve if something doesn't work out. Recently I've found the lack of customization in Windows 10 to hinder me. Things don't work like I'd like them to, and I need to resort to weird hacks and workarounds. The end result is fine, but it always takes some extra steps to get configurations as I'd like them.
+
+** Current workflow
+
+I really, really, really enjoy the modal nature of Vim. I try to keep that as a general philosophy, to have a single mode of action open at any time. This means no multiple windows of stuff open, but a singly-focussed desktop. No pointless noise on the screen - use keyboard hotkeys instead.
+
+I don't use Vim that much though, apart from doing rebases in Git. I use Emacs with evil-mode instead and I have Vimium enabled in my browser, so I can effortlessly run through content with keyboard only.
+
+I use fuzzy find whenever possible, as it is faster and more reliable than looking for files in directory view. I very rarely go into File Explorer these days. Maybe if I need to glance at some pictures stored somewhere... Generally dired in Emacs or just terminal will get me there faster than anything else.
+
+*** My most important tools are:
+- Scoop :: A package manager. I know there are alternatives like Chocolatey and winget these days, but Scoop hasn't so far failed me. It just works and includes like more than 95% of any tools I'd ever need to install.
+- Cmder :: A terminal emulator. Supports multiple different shells and works beautifully with WSL2. Comes preinstalled with some aliases and let's you use Unix utilities even in Windows mode.
+- VDesk and DesktopSwitcher :: Let's be totally honest, virtual desktop support on Windows sucks. They're designed as just extra space to jot your windows on, but I'd rather not worry about windows at all. I have a web browser on the first desktop, Emacs/VSCode on the second one and terminal on the third one. I have quick-launch buttons set with DesktopSwitcher shortcuts, so I can switch to the terminal by pressing WIN+3 at any time. It's fast, it works, it lets me concentrate on one thing at a time.
+- Emacs :: Emacs is more of a productivity tool for me than a text editor. I mean, even this blog post is an Emacs org-mode file that I just export to HTML. I use Emacs to write notes, journals, track habits and todos, read RSS-feeds. I just love tinkering with it.
+- VSCode :: I'm not entirely confident yet on switching to Emacs full-time, so I tend to do my day-to-day coding with VSCode, as it is very simple to setup for work projects.
+
+** Future
+
+I probably won't upgrade to Windows 11. I've come to realize that I'm in an extreme minority of Windows users who actually try to hack their workflows in such an elaborate way. I think it would be more beneficial to me as a developer to just be able to change stuff myself that I don't like about the system.
+
+One of these days I'll get myself a used laptop and start building my own Arch Linux. Windows 10 support ends in 2025 so I have a few years of time to learn!

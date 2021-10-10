@@ -2,8 +2,10 @@
 
 I decided to reboot my portfolio page, this time done entirely with Emacs org-mode and some CSS.
 
-There's some satisfaction in using tools in a correct manner, not even trying to break the limitations of the document model, but instead accept it as-is, and org-mode by default excels in writing documents.
+There's some satisfaction in using tools in a correct manner, not even trying to break the limitations of the document model, but instead accept it as-is, and org-mode by default excels in writing documents. No clever tricks, just a plain document tree that is understandable even without any styling whatsoever.
 
-I've used static site generators like [[http://nextjs.org][Next.js]] or [[https://www.11ty.dev][11ty]] before, but not having to write even a single line of JavaScript for a static web page feels so good.
+I've used static site generators like [[http://nextjs.org][Next.js]] or [[https://www.11ty.dev][11ty]] before, but not having to write even a single line of JavaScript for a static web page feels so good for a change.
 
-I almost started to get carried away with styling, only to realize that it's starting to become too cumbersome, so I turned it down a notch.
+There is so much noise on the Internet these days, that just having a separate space for content feels blissful. No comment functionality, no never-ending stream of social media updates or things that happen elsewhere. Straight to the point.
+
+This is in line with what I've been trying to do with my web presence for a while - decrease time scrolling or surfing webpages and rely on RSS feeds to find new content. It's actually quite refreshing to see how much time you save by going this route.
