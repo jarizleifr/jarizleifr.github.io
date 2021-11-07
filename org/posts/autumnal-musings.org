@@ -1,0 +1,16 @@
+#+TITLE: Autumnal musings
+
+Today is the last day of my autumn vacation. It has been a pretty quiet, with not much activity, which to be honest, suits me just fine. I like taking a small break, just to collect my thoughts in solitude before the holiday season.
+
+I visited Vapriikki to see an exhibition of knights in the late middle ages and it kinda sparked some kind of a deeper inspiration in me. I've always been intrigued by medieval times, but feel that some of its lustre has been lost on me in the recent years. So I thought I'd try to reconnect with that past me.
+
+The rawness of materials and aesthetics of medieval times inspire me. Wood, fur, leather, wool, linen, bronze, iron... Smell of nature, smoke, manure and blood. The idea that the knowledge and mastery required for survival can be achieved in a single lifetime through apprenticeship and practical learning. Check out [[https://en.wikipedia.org/wiki/Richard_Proenneke][Richard Proenneke]]. He lived 30 years on his own as a hermit in Alaska, constructing his own cabin and tools, hunting and fishing his own food.
+
+I'm not really interested in that level of hermitage, as I like living in a city, but I do enjoy wandering out in the forests close by. It's a primeval feeling to go off course, just walk without direction and experience and feel the things around you. Ease your way through tight nooks and end up in incredible places by accident. When I was a teen, I used to picture myself being some viking warrior travelling through the woods. I'd sneak out at nights and take a wooden sword and practice in the woods. It sounds a bit cringeworthy perhaps, but that was an escape that I really required at that time.
+
+#+NAME: Resting in the forest
+[[../img/forest.jpg]]
+
+I always imagined I'd become a blacksmith or a carpenter, any kind of artisan really. I even enrolled to a school for musical instrument building, thinking I'd start making medieval instruments as my calling, but it proved to take more dedication than I could muster at the time. I suppose one could argue that software development is artisanal work as well, but I find it lacks the meditative aspect of doing small detailed work with your hands. I recently did some beadwork and it felt like pure bliss. Just point the leather thread into a hole in the bead and repeat some hundred times.
+
+On that same note, I ordered two spools of steel wire and some tools, looking to build some chainmail armor for myself. I think that connects the desire for medieval aesthetics and wanting to meditatively build something a bit by bit. I might write more on my plans and progress, once I get started.

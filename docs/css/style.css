@@ -8,7 +8,8 @@
   true-purple     - #4F4F6F
   purple-grey     - #6F6F8F
   bronze          - #EFAF1F
-*/
+  light-pink      - #FF9FAF
+*/ 
 html {
     background-color: #000000;
     color: #FFFFFF;
@@ -135,7 +136,7 @@ footer {
     width: 35%;
 }
 
-.columns > figure > img {
+figure > img {
     object-fit: contain;
     max-width: 100%;
     max-height: 100%;

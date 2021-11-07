@@ -1,5 +1,6 @@
 #+TITLE: Archive
 
+- {{{timestamp(2021-11-07)}}} [[file:autumnal-musings.org][Autumnal musings]]
 - {{{timestamp(2021-10-10)}}} [[file:on-workflows.org][On workflows]]
 - {{{timestamp(2021-10-02)}}} [[file:new_beginnings.org][New beginnings]]
 - {{{timestamp(2021-09-25)}}} [[file:ranged_combat_in_dregsrealm.org][Ranged combat in Dregsrealm]]
