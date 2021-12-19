@@ -1,0 +1,29 @@
+#+TITLE: Gallery
+
+#+HTML: <div class="copyright">
+All images in this gallery are copyrighted, all rights reserved © 2020-2021 Antti Joutsi. Some are commission works, with exclusive use rights granted to the commissioner. You may not copy, remix or use these images without permission. 
+#+HTML: </div>
+
+I am currently not open for new commissions, sorry.
+
+#+HTML: <div class="gallery">
+
+#+CAPTION: Jesus in Hell. 2021. Goauche.
+[[file:img/gallery/jesus-hell.jpg][file:img/gallery/thumbnails/jesus-hell.png]]
+
+#+CAPTION: Seed. 2021. Digital. Album cover art for [[https://unhole.bandcamp.com][Unhole]].
+[[file:img/gallery/unhole.jpg][file:img/gallery/thumbnails/unhole.png]]
+
+#+CAPTION: Moulding. 2021. Acrylic.
+[[file:img/gallery/moulding.jpg][file:img/gallery/thumbnails/moulding.png]]
+
+#+CAPTION: Maze. 2021. Marker pen.
+[[file:img/gallery/maze.jpg][file:img/gallery/thumbnails/maze.png]]
+
+#+CAPTION: Ifrit. 2020. Goauche.
+[[file:img/gallery/ifrit.jpg][file:img/gallery/thumbnails/ifrit.png]]
+
+#+CAPTION: Towers of P'nith. 2020. Ballpoint pen + digital.
+[[file:img/gallery/pnith.jpg][file:img/gallery/thumbnails/pnith.png]]
+
+#+HTML: </div>

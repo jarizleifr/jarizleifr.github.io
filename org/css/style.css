@@ -13,6 +13,7 @@
 html {
     background-color: #000000;
     color: #FFFFFF;
+    font-size: 16px;
     font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
 }
 
@@ -99,20 +100,33 @@ footer {
 
 .cc-by {
     padding-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.75rem;
+
 }
 
-.cc-by > img {
-    margin-right: 0.5rem;
+.cc-by > p {
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+    font-size: 0.75rem;
+    color: #AAAAAA;
+}
+
+.keywords {
+    color: #FF9FAF;
+    font-size: 0.9rem;
+}
+
+.keywords > a {
+    color: #FF9FAF;
+}
+
+.keywords > a:hover {
+    color: #FFFFFF;
 }
 
 #content {
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: 10rem;
+    padding-bottom: 14rem;
 }
 
 .outline-2:not(:last-child) {
@@ -143,6 +157,16 @@ figure > img {
     border-radius: 5%;
 }
 
+figcaption {
+    color: #AAAAAA;
+    font-size: 0.75rem;
+}
+
+/* Hide "Figure N: texts" */
+.figure-number {
+    display: none;
+}
+
 @media screen and (max-width: 640px) {
     .columns {
         flex-direction: column;
@@ -158,6 +182,26 @@ figure > img {
     }
 }
 
+/* Gallery page */
+.copyright {
+    font-size: 0.8rem;
+    color: #AAAAAA;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.gallery > figure {
+    margin: 0.25rem;
+}
+
+figure > a > img {
+    object-fit: contain;
+    height: 95%;
+}
 /* Resume page styles */
 
 .skills ul {

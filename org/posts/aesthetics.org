@@ -1,4 +1,6 @@
 #+TITLE: Aesthetics of contemplative practice
+#+DATE: <2021-11-23>
+#+KEYWORDS: philosophy
 
 I am a quite private person. While I often have much to say about topics that most pique my interest, my day-to-day life is rather uneventful and even ascetic at times. I wake up early, train and fast regularly and I try to read and meditate each day. However, such an almost ritualistic regimen might be hard to sustain on its own, even if its physical and mental benefits are obvious. Mind is a weird contraption and it rarely wants to do the right thing.
 
@@ -14,6 +16,7 @@ In a rather stark contrast, I have never felt any of the Lutheran traditions to 
 
 Lutheran churches and rituals have always felt very plain and bare to me. Everything is white and clean. Our churches were dark, full of mystique and they were very elaborately decorated. Walls were adorned with beautiful icons, beeswax candles were burning everywhere, the smell of incense would be intoxicating. There would be no church organs, but simple choral chants, that would echo through the church.
 
+#+CAPTION:[[https://commons.wikimedia.org/wiki/File:Pyh%C3%A4n_Nikolaoksen_kirkko_Kotka_alttari.JPG][Kotka Orthodox Church iconostasis, by MKFI]], Public domain, via Wikimedia Commons
 [[../img/iconostasis.jpg]]
 
 ** Apostasy

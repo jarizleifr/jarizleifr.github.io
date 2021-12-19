@@ -1,4 +1,6 @@
 #+TITLE: New beginnings
+#+DATE: <2021-09-24>
+#+KEYWORDS: tech
 
 I decided to reboot my portfolio page, this time done entirely with Emacs org-mode and some CSS.
 
