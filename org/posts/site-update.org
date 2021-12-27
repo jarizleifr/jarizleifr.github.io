@@ -1,4 +1,4 @@
-#+TITLE: Site update (Post tags, gallery page)
+#+TITLE: Site update
 #+DATE: <2021-12-19>
 #+KEYWORDS: tech,life
 

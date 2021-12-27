@@ -1,5 +1,5 @@
 
 #+TITLE: Posts tagged with 'gamedev'
 
-- {{{timestamp(2021-09-25)}}} [[file:ranged_combat_in_dregsrealm.org][Ranged combat in Dregsrealm]] {{{keywords((<a href="/posts/tag-gamedev.html">:gamedev</a>))}}}
+- {{{timestamp(2021-09-25)}}} [[file:ranged-combat-in-dregsrealm.org][Ranged combat in Dregsrealm]] {{{keywords((<a href="/posts/tag-gamedev.html">:gamedev</a>))}}}
 

@@ -157,6 +157,10 @@ figure > img {
     border-radius: 5%;
 }
 
+figure {
+    margin-top: 2rem;
+}
+
 figcaption {
     color: #AAAAAA;
     font-size: 0.75rem;
