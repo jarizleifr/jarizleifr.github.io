@@ -1,4 +1,4 @@
-#+TITLE: Hauberk
+#+TITLE: Crafting a hauberk
 
 ** Medieval obsession
 

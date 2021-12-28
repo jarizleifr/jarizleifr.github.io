@@ -1,4 +1,5 @@
 #+TITLE: Jarizleifr's Web of Weird
+
 * Latest posts
   
 #+HTML: <div class="posts">
@@ -29,7 +30,7 @@ I write about various topics that interest me, especially about game development
 
 #+HTML: </div></div>
 
-** FAQ
+*** FAQ
   
 - First computer? :: An IBM PS/1 in the early 90s, either model 2011 or 2121.
 - First programming language? :: Object Pascal with Borland Delphi 3.0, around 1997--1998.

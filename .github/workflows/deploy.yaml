@@ -1,0 +1,26 @@
+# Workflow for automatic site deploy
+name: "Deploy site to GitHub Pages"
+on:
+  push:
+    branches:
+      - test-deploy
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup Emacs
+      uses: purcell/setup-emacs@master
+      with:
+        version: 27.2
+
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Build 'docs'
+      run: make
+
+    - name: Deploy to 'gh-pages' branch
+      uses: JamesIves/github-pages-deploy-action@4.1.7
+      with:
+        branch: gh-pages
+	folder: docs
