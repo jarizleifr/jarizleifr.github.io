@@ -3,7 +3,7 @@ name: "Deploy site to GitHub Pages"
 on:
   push:
     branches:
-      - test-deploy
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
