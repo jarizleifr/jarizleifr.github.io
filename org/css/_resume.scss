@@ -1,0 +1,24 @@
+@import "colors";
+
+.skills {
+    ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	li {
+	    flex: 0 0 auto;
+	    background-color: $true-purple;
+	    border: 1px solid $purple-grey;
+	    padding: 0.33rem;
+	    border-radius: 1rem;
+	    font-size: 0.8rem;
+	    margin-right: 0.25rem;
+	    margin-bottom: 0.25rem;
+	}
+    }
+}
+

@@ -1,0 +1,38 @@
+.columns {
+    display: flex;
+    flex-direction: row-reverse;
+
+    div {
+	text-align: justify;
+	margin-right: 2rem;
+	width: 65%;
+    }
+
+    figure {
+	margin: 0;
+	width: 35%;
+
+	img {
+	    object-fit: contain;
+	    max-width: 100%;
+	    max-height: 100%;
+	    border-radius: 5%;
+	}
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .columns {
+	flex-direction: column;
+
+	div {
+	    margin-right: 0;
+	    width: 100%;
+	}
+
+	figure {
+	    width: 100%;
+	}
+    }
+}
+

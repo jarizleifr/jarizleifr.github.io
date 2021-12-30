@@ -1,0 +1,28 @@
+@import "colors";
+
+html {
+    background-color: $black;
+    color: $white;
+    font-size: 16px;
+    font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
+}
+
+body {
+    background-color: $dark-grey;
+    color: $white;
+    position: relative;
+    max-width: 820px;
+    min-height: 100vh;
+    margin: 0 auto 0 auto;
+}
+
+#content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 14rem;
+}
+
+.outline-2:not(:last-child) {
+    border-bottom: 1px solid $black;
+}
+

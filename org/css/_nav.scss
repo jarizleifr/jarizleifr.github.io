@@ -1,0 +1,19 @@
+@import "_colors.scss";
+
+nav {
+    background-color: $dark-purple;
+
+    > ol {
+	list-style-type: none;
+	padding: 1rem 0 1rem 0;
+	margin: 0 1rem 0 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	
+	> li {
+	    margin-right: 2rem;
+	}
+    }
+}
+

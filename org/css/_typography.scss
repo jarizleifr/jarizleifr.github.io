@@ -1,0 +1,28 @@
+h1 {
+    text-transform: uppercase;
+    color: $toxic-green;
+}
+
+h2 {
+    color: $light-beige;
+}
+
+h3 {
+    color: $skin; 
+}
+
+h4 {
+    color: $light-pink;
+}
+
+p {
+
+}
+
+a, a:link, a:visited {
+    color: $bronze;
+
+    &:hover {
+	color: $gold; 
+    }  
+}

@@ -140,7 +140,7 @@
 				   :html-doctype "html5"
 				   :html-html5-fancy t)
 				  ("static" :base-directory "org/" 
-				   :base-extension "css\\|js\\|png\\|ico\\|jpg\\|svg" 
+				   :base-extension "png\\|ico\\|jpg\\|svg" 
 				   :publishing-directory "docs/" 
 				   :exclude "drafts/.*" 
 				   :recursive t 

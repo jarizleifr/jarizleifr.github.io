@@ -1,0 +1,22 @@
+@import "colors";
+
+.copyright {
+    font-size: 0.8rem;
+    color: $light-grey;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    figure {
+	margin: 0.25rem;
+	
+	a > img {
+	    object-fit: contain;
+	    height: 95%;
+	}
+    }
+}
+

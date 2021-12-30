@@ -1,0 +1,15 @@
+@import "colors";
+
+figure {
+    margin-top: 2rem;
+}
+
+figcaption {
+    color: $light-grey;
+    font-size: 0.75rem;
+}
+
+.figure-number {
+    display: none;
+}
+

@@ -1,0 +1,14 @@
+@import "colors";
+
+.keywords {
+    color: $light-pink;
+
+    a {
+	color: $light-pink;
+
+	&:hover {
+	    color: $white;
+	}
+    }
+}
+
