@@ -1,5 +1,3 @@
-
 #+TITLE: Posts tagged with 'philosophy'
-
-- {{{timestamp(2021-11-23)}}} [[file:aesthetics.org][Aesthetics of contemplative practice]] {{{keywords((<a href="/posts/tag-philosophy.html">:philosophy</a>))}}}
-
+#+ATTR_HTML: :class posts-list
+- {{{timestamp(2021-11-23)}}} [[file:aesthetics.org][Aesthetics of contemplative practice]] {{{keywords(<a href="/posts/tag-philosophy.html">:philosophy</a>)}}}

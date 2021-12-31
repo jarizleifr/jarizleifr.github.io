@@ -1,0 +1,63 @@
+// Colors
+$black: #000000;
+$white: #ffffff;
+$light-blue-grey: #afbfff;
+$dark-grey: #2f2f2f;
+//$dark-purple: #1f0f2f;
+$toxic-green: #9fcf3f;
+$light-beige: #ffdfbf;
+$blue-grey: #5fafcf;
+$skin: #ffbf9f;
+$true-purple: #4f4f6f;
+$purple-grey: #6f6f8f;
+$bronze: #efaf1f;
+$light-pink: #ff9faf;
+$gold: #ffff4f;
+$light-grey: #9f9f9f;
+
+// Layout size
+$base-size: 10px;
+$content-width: 94rem;
+$header-height: 4rem;
+$footer-height: 20rem;
+$footer-height-small: 24rem;
+
+$darkest-grey: #252428;
+$even-darker-grey: #131214;
+
+$dark-purple: #0f001f;
+$light-purple: #2f1f3f;
+
+$lighter-purple: #bfafcf;
+
+$grey: #ffffff;
+// Text
+
+$snow-white: #fffafa;
+$purple: #3b2747;
+
+$breakpoint-small: 640px;
+$breakpoint-medium: 780px;
+
+// body text
+//$primary: $dark-purple;
+$primary: $purple;
+$primary-light: $lighter-purple;
+$primary-variant: #211627; 
+$on-primary: $snow-white;
+
+$secondary: $toxic-green;
+
+
+$background: $black;
+$on-background: $snow-white;
+
+$surface: $darkest-grey;
+
+$body-text-color: $snow-white;
+// de emphasized text (figures, copyrights, info things)
+$info-text-color: $light-grey;
+// headers 1,2,3,4
+
+$link-color: $bronze;
+$link-hover-color: $gold;

@@ -1,9 +1,10 @@
 #+TITLE: Archive
 
-- {{{timestamp(2021-12-19)}}} [[file:site-update.org][Site update]] {{{keywords((<a href="/posts/tag-tech.html">:tech</a> <a href="/posts/tag-life.html">:life</a>))}}}
-- {{{timestamp(2021-12-01)}}} [[file:i-post.org][I post, therefore I am]] {{{keywords((<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-tech.html">:tech</a>))}}}
-- {{{timestamp(2021-11-23)}}} [[file:aesthetics.org][Aesthetics of contemplative practice]] {{{keywords((<a href="/posts/tag-philosophy.html">:philosophy</a>))}}}
-- {{{timestamp(2021-11-07)}}} [[file:autumnal-musings.org][Autumnal musings]] {{{keywords((<a href="/posts/tag-life.html">:life</a>))}}}
-- {{{timestamp(2021-10-10)}}} [[file:on-workflows.org][On workflows]] {{{keywords((<a href="/posts/tag-tech.html">:tech</a>))}}}
-- {{{timestamp(2021-09-25)}}} [[file:ranged-combat-in-dregsrealm.org][Ranged combat in Dregsrealm]] {{{keywords((<a href="/posts/tag-gamedev.html">:gamedev</a>))}}}
-- {{{timestamp(2021-09-24)}}} [[file:new-beginnings.org][New beginnings]] {{{keywords((<a href="/posts/tag-tech.html">:tech</a>))}}}
+#+ATTR_HTML: :class posts-list
+- {{{timestamp(2021-12-19)}}} [[file:site-update.org][Site update]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-tech.html">:tech</a>)}}}
+- {{{timestamp(2021-12-01)}}} [[file:i-post.org][I post, therefore I am]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-tech.html">:tech</a>)}}}
+- {{{timestamp(2021-11-23)}}} [[file:aesthetics.org][Aesthetics of contemplative practice]] {{{keywords(<a href="/posts/tag-philosophy.html">:philosophy</a>)}}}
+- {{{timestamp(2021-11-07)}}} [[file:autumnal-musings.org][Autumnal musings]] {{{keywords(<a href="/posts/tag-life.html">:life</a>)}}}
+- {{{timestamp(2021-10-10)}}} [[file:on-workflows.org][On workflows]] {{{keywords(<a href="/posts/tag-tech.html">:tech</a>)}}}
+- {{{timestamp(2021-09-25)}}} [[file:ranged-combat-in-dregsrealm.org][Ranged combat in Dregsrealm]] {{{keywords(<a href="/posts/tag-gamedev.html">:gamedev</a>)}}}
+- {{{timestamp(2021-09-24)}}} [[file:new-beginnings.org][New beginnings]] {{{keywords(<a href="/posts/tag-tech.html">:tech</a>)}}}

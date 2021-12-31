@@ -1,4 +1,4 @@
-@import "colors";
+@import "variables";
 
 .copyright {
     font-size: 0.8rem;
@@ -11,11 +11,27 @@
     justify-content: flex-start;
     
     figure {
-	margin: 0.25rem;
+	margin: 0;
+	padding: 0 0 3rem 0;
+	flex: 1 1 auto;
+	width: inherit;
 	
-	a > img {
-	    object-fit: contain;
-	    height: 95%;
+	a {
+	    width: 100%;
+	    height: 100%;
+	
+	    img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+		background-color: $black;
+		opacity: 0.33;
+	
+		&:hover {
+		    opacity: 1.0;
+		}
+
+	    }
 	}
     }
 }

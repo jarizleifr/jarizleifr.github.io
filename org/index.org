@@ -1,10 +1,8 @@
 #+TITLE: Jarizleifr's Web of Weird
 
 * Latest posts
-  
-#+HTML: <div class="posts">
-#+INCLUDE: "posts/archive.org" :lines "3-8"
-#+HTML: </div>
+
+#+INCLUDE: "posts/archive.org" :lines "3-9"
 [[file:posts/archive.org][Archive]]
 
 * Projects
@@ -12,21 +10,22 @@
 - [[file:hauberk.org][Crafting an iron hauberk]] [Updated: 2021-12-27]
 - [[file:dregsrealm.org][Dregsrealm]]
 
-* About Me
-  
 #+HTML: <div class="columns">
 
 #+NAME: Jarizleifr
 [[./img/jarizleifr.jpg]]
 
 #+HTML: <div>
-My name is Antti Joutsi (aka Jarizleifr) and I'm a computer tech enthusiast and an artist from Tampere, Finland.
+#+HTML: <h2>About Me</h3>
+My name is Antti Joutsi (aka Jarizleifr) and I'm an urban eremite, a Zen Buddhist, a scholar obsessed with myriad subjects, a computer tech enthusiast, a musician and an artist.
 
-I've been developing an old-school roguelike game called Dregsrealm as an independent developer since 2016, I do all the code, game design, graphics and music myself. I'm also employed as a tech consultant, having worked mostly on peripherals, e-commerce and administrative frontends.
+I currently live in Tampere, working at Vincit Oyj as a tech consultant, providing my expertise on the web, e-commerce, peripheral integration and administrative frontends.
 
-I'm a proponent of Zen Buddhism, I paint (mostly with acrylics and goauche) and I believe in empathy, compassion and self-betterment.
+During leisure I like to paint (acrylic and goauche mostly), engage in musical troubadoury, or develop intricate simulations for my roguelike game Dregsrealm, which I've been developing as a side-project since 2016. I hope to release the game one day.
 
-I write about various topics that interest me, especially about game development, technology, my personal philosophy and other artistic endeavours.
+I also write profusely about various topics that interest me, especially about game development, technology, my personal philosophy and other artistic endeavours. A selection of my more coherent writings (and paintings) can be perused at this very website.
+
+The values I hold most dear, are empathy, compassion and self-betterment. I've grown weary of cruelty and ignorance.
 
 #+HTML: </div></div>
 

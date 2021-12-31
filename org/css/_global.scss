@@ -1,28 +1,57 @@
-@import "colors";
+@import "variables";
 
-html {
-    background-color: $black;
-    color: $white;
-    font-size: 16px;
+html, body {
+    background-color: $background;
+    color: $on-background;
+    font-size: $base-size;
     font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
-}
-
-body {
-    background-color: $dark-grey;
-    color: $white;
-    position: relative;
-    max-width: 820px;
-    min-height: 100vh;
-    margin: 0 auto 0 auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 #content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 14rem;
+    max-width: $content-width;
+    margin: 0 auto 0 auto;
+    padding: calc($header-height + 2rem) 2rem 2rem 2rem;
+    min-height: calc(100vh - $header-height - $footer-height - 4rem);
+    background: $surface;
+
+    @media screen and (max-width: $breakpoint-small) {
+	min-height: calc(100vh - $header-height - $footer-height-small - 4rem);
+    }
+    
+    h1 {
+	color: $secondary;
+    }
 }
 
-.outline-2:not(:last-child) {
-    border-bottom: 1px solid $black;
+.tags {
+    font-size: 1.6rem;
+    
+    a, a:visited, a:active {
+	color: $light-pink;
+
+	&:hover {
+	    color: $white;
+	}
+    }
+}
+
+header {
+    margin: 0 0 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+	margin: 0;
+    }
+
+    h4 {
+	margin: 0;
+	color: $light-grey;
+    }
 }
 

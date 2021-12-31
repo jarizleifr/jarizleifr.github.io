@@ -1,4 +1,2 @@
-
 #+TITLE: Posts tagged with 'untagged'
-
-
+#+ATTR_HTML: :class posts-list

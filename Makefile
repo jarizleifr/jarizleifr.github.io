@@ -1,9 +1,9 @@
 # Makefile for Jarizleifr blog
 
-ORG_SOURCES = $(wildcard **/*.org)
+ORG_SOURCES = $(wildcard **/*.org) $(wildcard html/*.html) publish.el
 ORG_SENTINEL = docs/.org.sentinel
 
-CSS_SOURCES = org/css/style.scss
+CSS_SOURCES = $(wildcard org/css/*.scss)
 CSS_TARGETS = docs/css/style.css
 
 GALLERY_SOURCES = $(wildcard org/img/gallery/*.jpg)
@@ -42,7 +42,7 @@ $(ORG_SENTINEL): $(ORG_SOURCES)
 
 $(CSS_TARGETS): $(CSS_SOURCES) 
 	@echo "Compiling Sass into CSS..."
-	sass $< $@
+	sass org/css/style.scss $@
 
 $(GALLERY_SENTINEL): $(GALLERY_SOURCES)
 	@echo "Creating gallery thumbnails..."

@@ -1,24 +1,22 @@
-@import "colors";
+@import "variables";
 
-.skills {
-    ul {
-	list-style-type: none;
-	margin-left: 0;
-	padding-left: 0;
+.experience {
+    div {
+	margin: 2rem 0 0 0;
 	display: flex;
-	flex-direction: row;
+	white-space: nowrap;
 	flex-wrap: wrap;
+	justify-content: space-between;
+	color: $light-grey;
 	
-	li {
-	    flex: 0 0 auto;
-	    background-color: $true-purple;
-	    border: 1px solid $purple-grey;
-	    padding: 0.33rem;
-	    border-radius: 1rem;
-	    font-size: 0.8rem;
-	    margin-right: 0.25rem;
-	    margin-bottom: 0.25rem;
+	h4 {
+	    margin: 0;
 	}
+    }
+
+    h3 {
+	color: $secondary;
+	margin-top: 0.5rem;
     }
 }
 

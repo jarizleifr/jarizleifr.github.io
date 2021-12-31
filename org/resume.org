@@ -6,9 +6,7 @@ I'm currently employed at *Vincit Oyj* as an IT-consultant, working on customer 
 I love learning new things, so I'm constantly building up my competence for future endeavours and just for fun. Currently I'm touching up my skills with *Lisp*, *Rust* and *OpenGL*.
 
 * Skills
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: skills
-  :END:  
+
 ** Core proficiency
   
 I've about 4 years of professional experience in game and software development. I'm most proficient with *C#*, which I've used to develop my game Dregsrealm since 2016. I've also plenty of experience with *TypeScript* and *React*. I've been in a few professional *Java* projects that used *Spring Framework*.
@@ -17,83 +15,78 @@ I've about 4 years of professional experience in game and software development. 
 
 I have also done some freelance work as an artist, doing album covers and posters for bands. I've some experience from audiovisual recording and editing and I've played music (guitar, keyboards) for about 20 years.
 
-*** Programming
-- C#
-- .NET
-- TypeScript
-- React
-- Next.js
-- Node.js
-- Python
-- Rust
-- Java
-- Spring Framework
-  
-*** Platforms
-- AWS
-- Shopify
-  
-*** Graphics and Game Engines
-- SDL2
-- Unity 3D
-- Blender
-- Adobe InDesign
-- Adobe Illustrator
-- Adobe Photoshop
+- Programming languages :: C#, TypeScript, Python, Rust, Java, C, C++
+- Frameworks :: .NET, Node.js, React, Next.js, Spring Framework
+- Platforms :: Shopify, AWS
+- Game Engine & Graphics :: Unity 3D, SDL, Blender 3D, Adobe Photoshop, Adobe Illustrator, Adobe InDesign
+- DevOps & Tools :: Git, Docker, Makefiles, Cmder, Emacs 
 
-*** Tools
-- Cmder
-- Emacs
-- Visual Studio Code
-- Git
-- Docker
-  
 * Work Experience
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: experience
-  :END:
-** Vincit Oyj - Tampere, Finland
-*** Dec 2019 -- Present - Software Developer - Full-time
-- Full-stack web development with a dash of design
-** Sasken Finland Oy - Tampere, Finland
-*** Mar 2019 -- Sep 2019 - Software Engineer - Internship
+
+#+HTML: <div class="experience">
+#+HTML: <div><h4>Software Developer</h4><h4>Dec 2019 – Present</h4></div>
+#+HTML: <h3>Vincit Oyj - Tampere, Finland</h3>
+- Full-stack web development, with a dash of design
+#+HTML: </div>
+
+#+HTML: <div class="experience">
+#+HTML: <div><h4>Software Engineer</h4><h4>Mar 2019 – Sep 2019</h4></div>
+#+HTML: <h3>Sasken Finland Oy - Tampere, Finland</h3>
 - Agile full-stack web development
 - Worked on an in-house project, which included:
   - A back-end server written in *Java* and *Spring Framework*
   - An IoT-device which communicated with the server via *MQTT*
   - An administrative frontend made with *React* and *Material UI*
   - A separate user-facing frontend
-- Responsible for creating the admin frontend and refactoring the back-end server, by adding *JUnit* unit- and integration tests and cleaning up the implementation throughout the codebase 
-** Digital Hammer Oy - Lahti, Finland
-*** May 2015 -- Aug 2015 - Game Programmer - Internship
+- Responsible for creating the admin frontend and refactoring the back-end server, by adding *JUnit* unit- and integration tests and cleaning up the implementation throughout the codebase
+#+HTML: </div>
+
+#+HTML: <div class="experience">
+#+HTML: <div><h4>Game Programmer</h4><h4>May 2015 – Aug 2015</h4></div>
+#+HTML: <h3>Digital Hammer Oy - Lahti, Finland</h3>
 - A school internship project, where I worked as the sole programmer in a small team of digital media students
 - Our team produced a demo game called Maxine Mafiabots Inc., a classic-style 2D-platformer with hand-drawn graphics and animations
 - The game was written in *GML*, using *Game Maker: Studio*
 - I was responsible for all the programming and technical direction of the game
 - Also contributed extensively to level and gameplay design
-** Karhulan kirjasto - Kotka, Finland
-*** Sep 2010 -- Feb 2011 - Library Assistant - Internship
-- Responsible for shelving/cataloguing media and customer service
-** Eltel Networks Oy - Kotka, Finland
-*** 2005, 2006, 2007 | Jun--Jul - District Heating Fitter - Internship
+#+HTML: </div>
+
+#+HTML: <div class="experience">
+#+HTML: <div><h4>Library Assistant</h4><h4>Sep 2010 – Feb 2011</h4></div>
+#+HTML: <h3>Karhulan kirjasto - Kotka, Finland</h3>
+- Worked as a general assistant, responsible for customer service and shelving/cataloguing media
+#+HTML: </div>
+
+#+HTML: <div class="experience">
+#+HTML: <div><h4>District Heating Fitter</h4><h4>2005, 2006, 2007 | Jun – Jul</h4></div>
+#+HTML: <h3>Eltel Networks Oy - Kotka, Finland</h3>
 - A summer job for three consecutive summers
-- Responsible for maintenance of district heating networks
+- Responsible for maintenance and repair of Kotka district heating networks
+#+HTML: </div>
+
 * Education
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: experience
-  :END: 
-** Courses
-*** 2019 - Code Academy - Tampere Finland
+   
+#+HTML: <div class="experience">
+#+HTML: <div><h4>Course</h4><h4>2019</h4></div>
+#+HTML: <h3>Code Academy - Tampere, Finland</h3>
 - A 6 month course of intensive web development training, arranged by *Saranen Consulting Oy*
 - Was among the 14 chosen of ~120 applicants
 - Worked at *Sasken Finland Oy* as a software engineer during the program
-** XAMK - Kouvola, Finland
-*** 2017 - Bachelor of Culture and Arts
+#+HTML: </div>
+
+#+HTML: <div class="experience">
+#+HTML: <div><h4>Bachelor of Culture and Arts</h4><h4>2017</h4></div>
+#+HTML: <h3>XAMK - Kouvola, Finland</h3>
 - Majored in *Digital Media* and *Game Design*
 - Took extra courses on programming as remote studies from *Metropolia AMK*
 - Bachelor's thesis on post-apocalyptic worldbuilding received best possible grade
-** Kotkan aikuislukio - Kotka, Finland
-*** 2012 - Finnish Matriculation Examination
+#+HTML: </div>
+
+#+HTML: <div class="experience">
+#+HTML: <div><h4>Finnish Matriculation Exam</h4><h4>2012</h4></div>
+#+HTML: <h3>Kotkan aikuislukio - Kotka, Finland</h3>
 - Higher general education (upper secondary school / gymnasium)
 - Mathematics, history, natural sciences, social studies, culture
 - Excelled especially in English studies, art and music
+#+HTML: </div>
+

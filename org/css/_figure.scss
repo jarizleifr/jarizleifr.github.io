@@ -1,12 +1,17 @@
-@import "colors";
+@import "variables";
 
 figure {
-    margin-top: 2rem;
+    margin: 2rem 0 2rem 0;
+    width: 100%;
+
+    img {
+	width: 100%;
+    }
 }
 
 figcaption {
     color: $light-grey;
-    font-size: 0.75rem;
+    font-size: 1.4rem;
 }
 
 .figure-number {

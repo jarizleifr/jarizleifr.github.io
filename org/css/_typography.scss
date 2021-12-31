@@ -1,28 +1,41 @@
 h1 {
+    font-size: 2.0rem;
     text-transform: uppercase;
-    color: $toxic-green;
+    color: inherit;
+    font-weight: 600;
 }
 
 h2 {
-    color: $light-beige;
+    font-size: 1.8rem;
+    color: inherit;
+    font-weight: 600;
 }
 
 h3 {
-    color: $skin; 
+    font-size: 1.6rem;
+    color: inherit;
+    font-weight: 600;
 }
 
 h4 {
-    color: $light-pink;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: inherit;
 }
 
-p {
-
+p, li, dd, dt {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: inherit;
 }
 
-a, a:link, a:visited {
-    color: $bronze;
+a, a:visited, a:active {
+    color: $link-color;
+    text-decoration: none;
 
     &:hover {
-	color: $gold; 
-    }  
+	color: $link-hover-color;
+    }
 }
+

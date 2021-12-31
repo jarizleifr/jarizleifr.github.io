@@ -1,42 +1,46 @@
-@import "colors";
+@import "variables";
 
 footer {
-    border-top: 1px $black solid;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-bottom: 1rem;
+    border-top: 2px solid $black;
+    margin: 0 auto 0 auto;
+    padding: 0 2rem 0 2rem;
     text-align: center;
-    width: calc(100% - 2rem);
-    position: absolute;
-    bottom: 0;
+    max-width: $content-width;
+    background-color: $surface;
+    height: $footer-height;
 
+    @media screen and (max-width: $breakpoint-small) {
+	height: $footer-height-small;
+    }
+    
     .contact {
+	padding-top: 2rem;
+	    
 	p {
-	    margin-bottom: 0.25rem;
-	    font-size: 0.8rem;
-
-	    a {
-		font-size: 0.9rem;
-	    }
+	    margin: 0;
+	    font-size: 1.4rem;
 	}
-	
-	div > a > img {
-	    fill: $black;
-	    background-color: $white;
-	    border-radius: 0.25rem;
-	    max-width: 1rem;
-	    max-height: 1rem;
-	    padding: 0.15rem;	
+   
+	div {
+	    padding: 1rem 0 1rem 0;
+	    a > img {
+		margin: 0 0.25rem 0 0.25rem;
+		fill: $black;
+		background-color: $secondary;
+		border-radius: 50%;
+		max-width: 2rem;
+		max-height: 2rem;
+		padding: 0.25rem;	
+	    }
 	}
     }
 
     .cc-by {
-	padding-top: 1rem;
+	padding: 1rem 0 0 0;
 
 	p {
-	    margin-top: 0.25rem;
-	    margin-bottom: 0;
-	    font-size: 0.75rem;
+	    margin: 0.5rem 0 0 0;
+	    font-size: 1.2rem;
 	    color: $light-grey;
 	}
     }
