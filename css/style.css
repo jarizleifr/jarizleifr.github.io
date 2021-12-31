@@ -11,11 +11,11 @@ html, body {
   max-width: 94rem;
   margin: 0 auto 0 auto;
   padding: calc($header-height + 2rem) 2rem 2rem 2rem;
-  min-height: calc(100vh - $header-height - $footer-height - 4rem);
+  min-height: calc(100vh - -16rem - 4rem);
   background: #252428; }
   @media screen and (max-width: 640px) {
     #content {
-      min-height: calc(100vh - $header-height - $footer-height-small - 4rem); } }
+      min-height: calc(100vh - -24rem); } }
   #content h1 {
     color: #9fcf3f; }
 
