@@ -10,7 +10,7 @@ html, body {
 #content {
   max-width: 94rem;
   margin: 0 auto 0 auto;
-  padding: calc($header-height + 2rem) 2rem 2rem 2rem;
+  padding: calc(4rem + 2rem) 2rem 2rem 2rem;
   min-height: calc(100vh - -16rem - 4rem);
   background: #252428; }
   @media screen and (max-width: 640px) {
