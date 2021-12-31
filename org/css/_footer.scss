@@ -1,7 +1,7 @@
 @import "variables";
 
 footer {
-    border-top: 2px solid $black;
+    border-top: $footer-border solid $black;
     margin: 0 auto 0 auto;
     padding: 0 2rem 0 2rem;
     text-align: center;

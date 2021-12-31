@@ -42,6 +42,7 @@ $(ORG_SENTINEL): $(ORG_SOURCES)
 
 $(CSS_TARGETS): $(CSS_SOURCES) 
 	@echo "Compiling Sass into CSS..."
+	mkdir -p docs/css
 	sass org/css/style.scss $@
 
 $(GALLERY_SENTINEL): $(GALLERY_SOURCES)

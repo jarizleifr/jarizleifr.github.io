@@ -13,12 +13,12 @@ html, body {
 #content {
     max-width: $content-width;
     margin: 0 auto 0 auto;
-    padding: calc($header-height + 2rem) 2rem 2rem 2rem;
-    min-height: calc(100vh - $header-height - $footer-height - 4rem);
+    padding: #{$header-height + 2rem} 2rem 2rem 2rem;
+    min-height: calc(100vh - #{$header-height + $footer-height + $footer-border + 4rem});
     background: $surface;
 
     @media screen and (max-width: $breakpoint-small) {
-	min-height: calc(100vh - $header-height - $footer-height-small - 4rem);
+	min-height: calc(100vh - #{$header-height + $footer-height-small + $footer-border + 4rem});
     }
     
     h1 {
