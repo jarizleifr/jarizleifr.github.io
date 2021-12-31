@@ -10,12 +10,12 @@ html, body {
 #content {
   max-width: 94rem;
   margin: 0 auto 0 auto;
-  padding: calc(4rem + 2rem) 2rem 2rem 2rem;
-  min-height: calc(100vh - -16rem - 4rem);
+  padding: 6rem 2rem 2rem 2rem;
+  min-height: calc(100vh - 28.2rem);
   background: #252428; }
   @media screen and (max-width: 640px) {
     #content {
-      min-height: calc(100vh - -24rem); } }
+      min-height: calc(100vh - 32.2rem); } }
   #content h1 {
     color: #9fcf3f; }
 
@@ -24,7 +24,7 @@ html, body {
   .tags a, .tags a:visited, .tags a:active {
     color: #ff9faf; }
     .tags a:hover, .tags a:visited:hover, .tags a:active:hover {
-      color: #ffffff; }
+      color: #fffafa; }
 
 header {
   margin: 0 0 2rem 0;
@@ -98,7 +98,7 @@ nav {
           height: 3rem; }
       nav > ol li:not(:first-child):not(:last-child) {
         padding-right: 1rem;
-        border-right: 1px solid #ffffff; }
+        border-right: 1px solid #fffafa; }
       nav > ol li a, nav > ol li a:visited, nav > ol li a:active {
         text-transform: uppercase;
         color: #fffafa; }
@@ -106,7 +106,7 @@ nav {
           color: #fffafa; }
 
 footer {
-  border-top: 2px solid #000000;
+  border-top: 0.2rem solid #000000;
   margin: 0 auto 0 auto;
   padding: 0 2rem 0 2rem;
   text-align: center;
@@ -175,7 +175,7 @@ figcaption {
   .keywords a {
     color: #ff9faf; }
     .keywords a:hover {
-      color: #ffffff; }
+      color: #fffafa; }
 
 .columns {
   display: flex;
