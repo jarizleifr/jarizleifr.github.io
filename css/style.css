@@ -166,16 +166,9 @@ figcaption {
         padding: 0; }
         .posts-list li .timestamp {
           margin-right: 1rem; }
-        .posts-list li .keywords {
+        .posts-list li .tags {
           flex-grow: 1;
           text-align: right; } }
-
-.keywords {
-  color: #ff9faf; }
-  .keywords a {
-    color: #ff9faf; }
-    .keywords a:hover {
-      color: #fffafa; }
 
 .columns {
   display: flex;
