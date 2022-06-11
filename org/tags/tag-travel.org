@@ -1,0 +1,3 @@
+#+TITLE: Posts tagged with 'travel'
+#+ATTR_HTML: :class posts-list
+- {{{timestamp(2022-02-01)}}} [[file:pilgrimages-2022-evo.org][Pilgrimages - Stormwatching in Evo, Finland]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-travel.html">:travel</a>)}}}

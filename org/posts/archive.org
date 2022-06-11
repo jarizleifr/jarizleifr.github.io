@@ -1,6 +1,7 @@
 #+TITLE: Archive
 
 #+ATTR_HTML: :class posts-list
+- {{{timestamp(2022-02-01)}}} [[file:pilgrimages-2022-evo.org][Pilgrimages - Stormwatching in Evo, Finland]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-travel.html">:travel</a>)}}}
 - {{{timestamp(2021-12-19)}}} [[file:site-update.org][Site update]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-tech.html">:tech</a>)}}}
 - {{{timestamp(2021-12-01)}}} [[file:i-post.org][I post, therefore I am]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-tech.html">:tech</a>)}}}
 - {{{timestamp(2021-11-23)}}} [[file:aesthetics.org][Aesthetics of contemplative practice]] {{{keywords(<a href="/posts/tag-philosophy.html">:philosophy</a>)}}}

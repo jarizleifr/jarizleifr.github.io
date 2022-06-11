@@ -9,7 +9,7 @@
 (setq site-footer (file-to-string "html/footer.html"))
 
 (setq org-export-global-macros '(("timestamp" . "@@html:<span class=\"timestamp\">$1</span>@@") 
-				 ("keywords" . "@@html:<span class=\"keywords\">$1</span>@@")))
+				 ("keywords" . "@@html:<span class=\"tags\">$1</span>@@")))
 
 (org-export-define-derived-backend 'jzlfr-html 'html
 				   :translate-alist '((template . jzlfr-html-template)))
@@ -45,7 +45,7 @@
    "<meta property=\"og:image\" content=\"https://jarizleifr.github.io/img/jarizleifr.jpg\">\n"
    (format "<meta property=\"og:url\" content=\"%s\">\n"
 	   (jzlfr-get-url (plist-get info :input-file)))
-   "<meta property=\"og:desc\" content=\"A personal blog and the primary web presence of the public eccentric Antti Joutsi, aka Jarizleifr.\">\n"
+   "<meta property=\"og:description\" content=\"A personal blog and the primary web presence of the public eccentric Antti Joutsi, aka Jarizleifr.\">\n"
    "<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">"
    "<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">"
    "<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">"
@@ -112,7 +112,8 @@
   (create-tag-page "life") 
   (create-tag-page "philosophy") 
   (create-tag-page "tech") 
-  (create-tag-page "gamedev"))
+  (create-tag-page "gamedev")
+  (create-tag-page "travel"))
 
 (setq org-publish-project-alist `(("pages" :base-directory "org/" 
 				   :base-extension "org" 
