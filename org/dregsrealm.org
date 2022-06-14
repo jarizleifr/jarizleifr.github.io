@@ -1,6 +1,71 @@
 #+TITLE: Dregsrealm
+#+SUBTITLE: A roguelike game about adventures in an everchanging Vancian world.
 
-Dregsrealm is my magnum opus. I've been working on this project since 2016 and it has gone through multiple iterations, slowly growing with my skills and getting more and more ambitious.
+Dregsrealm is a world at the fringes of existence, where all sorts of weird characters tend to end up in, with little to no chance of ever returning. Whatever you ever were in your past life, none of that matters any more, as the looming spires of Vaparaj welcome you to this alien and inhospitable world. 
 
-A roguelike game about being a hero in a Vancian world.
+If you've ever perused *Heavy Metal (1981)*, *Krull (1983)*, *Flash Gordon (1980)*, *He-Man: The Masters of the Universe (1983-1985)* or read any of the *Jack Vance*'s *Dying Earth* stories, you should have a pretty good idea of the pathos I'm going after.
 
+*Dregsrealm* is something I consider my own personal magnum opus. I've been working on this project since 2016 and it has gone through multiple iterations, slowly growing with my skills and getting more and more ambitious. It is an old-school computer role-playing game, with an emphasis on emergent gameplay, worldbuilding and interaction between both short-term systems like combat and magic, but having political, demographical and economical layers as well, which affect things happening in the world long-term.
+
+The ultimate goal is to have a living and breathing world, where you can meet other adventurers on their own missions, where bandits deteriorate the economy of a province, because the ruling monarch is a corruptible bastard, where a small village in the outskirts of the world produces the best weapons, because they have access to resources that others lack. All this procedurally generated.
+
+Mechanically, the game is very much inspired by roguelike classics like *NetHack*, *ADOM*, *Angband*, as well as the more simulationist CRPG games like *Daggerfall*, *Darklands*, *Mount & Blade*.
+
+* The game system
+Dregsrealm features a completely bespoke role-playing system, that I've dubbed as the *SEFIRA* system, representing the primary character statistics of *Strength*, *Endurance*, *Finesse*, *Intellect*, *Resolve* and *Awareness*, the first three being the physical abilities, and the latter three being the mental abilities.
+
+More definitive abilities are represented by *traits*, which can only be assigned at character creation, or received through special events in the game.
+
+There are no classes or levels, characters gain experience points from doing various activities and these points can be spent on stats, skills, talents and spells. Stats and skills can also increase with regular use, and one can improve their abilities by seeking out training from other characters.
+
+There are four distinct objectives in the game:
+- Adventuring :: Defeat powerful enemies, get rich, participate in skulduggery, finish quests and become either a hero or a villain.
+- Lore :: Find artifacts of power, become well-versed in magic, peruse tomes of ancient knowledge and learn the hidden secrets of Dregsrealm
+- Religion :: Befriend the reigning deities of Dregsrealm, becoming their avatar and embarking on a holy (or unholy) quest
+- Intrigue :: Associate with a faction, antagonize rivals, oversee businesses, make deals and gain political power 
+
+* Some history (and technical tidbits)
+I got into playing *ADOM* in 1999, before the game had reached it's 1.0 version. I was completely blown away by the depth of that game and I still pick it up every now and then. I've beaten it multiple times, also having an ultra win under my belt.
+
+My earliest attempts of recreating the roguelike formula were rudimentary, trying to work around the limitations of game authoring software like *RPG Maker* and *Well of Souls*, to create something more dynamic. I almost let my dream perish, as I realized that there are no shortcuts and I'd have to learn programming if I wanted to create a game of my own. Fast forward to around 2015-2016, I had already some programming experience under the belt. I wanted to showcase some of this before leaving school, so I decided to take on a small side-project. My original aim was to make a simple clone of the original Wasteland game, with the player controlling a party of characters in a post-apocalyptic environment, but the scope started creeping pretty quickly, as my skills grew and I suddenly wanted to do more with the game, than what I originally envisioned.
+
+I came across ~libtcod~, a roguelike library which could speed up things a bit. I toyed around with it, doing the tutorials in both Python and C++, until finally breaking the curve of learning. I started to kinda know what I'm doing. ~libtcod~ lets you hook into raw SDL functions with callbacks, so I (ab)used the hell out of that, making a tile-based game that used the virtual console only for UI. I added sounds and tracker music into the mix.
+
+The game was still called *Waste Drudgers* at that point. This was the furthest I got with that version of the game:
+
+#+begin_export html 
+<div class="embed-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PXAX7cBP_tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+#+end_export
+
+* Transitional period
+To be frank, my C++ codebase was horrible. I had no grasp of proper architectural patterns and each new feature was a pain to add. Performance was poor, as I had little knowledge of 2D graphics optimization. The game was just a big bowl of brute force spaghetti and I was getting increasingly frustrated with it.
+
+At this point I opted for a game engine instead and started recreating my game in Unity. At first I was relieved by the sense of freedom and the ability of having more complex graphics in my game without too much of a hassle, but Unity came with its own set of issues:
+  - Unity is heavy. There's tons of stuff I'd never use as a solo developer, even moreso when making a 2D game. Also, prefabs and ScriptableObjects are very unwieldy when compared to simple static classes or plain-text files. I had used ~libtcod~'s configuration file formats before and they were absolutely superior for storing game data in my specific use case. I could of course use plain-text files with Unity as well, but what's the point of using an engine if you end up writing low-level file I/O stuff anyway?
+  - Unity is opinionated. Since this is a long-term passion project, I don't want to be hindered in my expression. This to be honest was the biggest dealbreaker for me. I don't like the idea of singleton GameObjects acting as manager classes. Also, Unity absolutely hates pixel art, unless you go to great lengths to prevent it from destroying it with filtering and floating point positions of objects and cameras. Having to put a pixel perfect enforcing script on camera to just make it work properly from is... something. 
+
+Best lesson from this was that a game engine can absolutely be overkill. You need to weigh your requirements very carefully and especially if you are the sole developer, using an opinionated framework can result in a loss of productivity.
+
+* The present
+I did not work on the Unity version of the game for long, but my dip in Unity was nevertheless a fruitful one. I learnt how to implement pathfinding algorithms on my own, as well as increased my understanding of C#, which led me to the next iteration of the game, as I had no need for ~libtcod~ or any game framework really for that matter. I really liked how C# made me much more productive as a programmer, as I didn't have to worry about header files (although I think these days C++ has support for module imports) and C# has some very nice syntactic sugar, which makes it a very comfy language to program in, in my opinion.
+
+As I had already started porting my old C++ code into C# for use in Unity, I decided to just get rid of Unity altogether and use just .NET Core 2.2 with SDL2. I also had a major breakthrough in 2018, when I got an internship as a software developer. I was mostly working with Java at work, but I had a free pass to Pluralsight, so I used the opportunity to learn about architectural patterns. This was the nudge I needed to succeed.
+
+I've since migrated from .NET Core 2.2 all the way to .NET 6. I feel like each iteration brings something new that I can immediately put to use. Init-only properties, records, pattern matching and switch expressions were all incredible additions. At times I have wondered if I should've written the game in Rust instead, but I feel each new version of .NET has brought with it such improvements in performance, that whatever I'm aiming for is perfectly achievable with this stack. Also, interoperability between C# and Rust is trivial - I might just port some parts of the game engine, while still keeping the actual gameplay in .NET environment. The only thing that I really miss from Rust are the "fat" enums that can contain fields. That is such a great feature!
+
+Since switching to .NET, I've split my game into a few components, to facilitate better separation of concerns:
+
+** ManulECS
+[[https://github.com/jarizleifr/manulecs][ManulECS]] is an Entity-Component-System library, which I implemented specifically to use in my own game. It has gone through multiple iterations and optimizations and I'm pretty happy with its current state. To be frank, the performance implications of using an ECS is not the real reason for me using one, but the ease of composition and serialization of the world state. The actions in my game are so complex, that I probably blow the CPU cache on each system, but that doesn't matter, as gameplay is not a bottleneck.
+
+ManulECS is a very minimal implementation, working almost like a standard container instead of a game framework. This minimalism lets me use proper architectural patterns in other parts of my game, where ECS would result in a more hackish solution. For example, I don't have any UI related components in the ECS.
+
+** Blaggard
+A play on the word *rogue*. Blaggard (from blackguard) is not exactly a game engine, but a library, that provides a Context object, which is an abstraction over SDL2 for operations like drawing graphics, handling input and playing audio. It's kinda like a lite version of ~libtcod~, albeit without pathfinding and FOV algorithms (those are part of the game proper). 
+
+Blaggard lacks polish and isn't as mature as ManulECS and I haven't really gotten into documenting it yet. It still contains some Dregsrealm specific stuff, but this isn't too high priority. I might scrap the entire library in the future and write it in Rust and OpenGL instead, providing only a wrapper for C#.
+
+** Dregsrealm
+The core game application, which apart from the other components, is currently proprietary. I've poured so much of my own heartblood into this, that I don't dare to put it up on display just yet. I might release the source code some day in the future. The game assets are stored in external files, accommodating easy development and maybe even modding at some point. 

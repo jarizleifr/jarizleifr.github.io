@@ -2,13 +2,13 @@
 
 * Latest posts
 
-#+INCLUDE: "posts/archive.org" :lines "3-9"
+#+INCLUDE: "posts/archive.org" :lines "3-11"
 [[file:posts/archive.org][Archive]]
 
 * Projects
   
-- [[file:hauberk.org][Crafting an iron hauberk]] [Updated: 2021-12-27]
-- [[file:dregsrealm.org][Dregsrealm]]
+- [[file:hauberk.org][Crafting an iron hauberk]] [Updated: 2022-06-12]
+- [[file:dregsrealm.org][Dregsrealm]] [Updated: 2022-06-12]
 
 #+HTML: <div class="columns">
 
@@ -17,7 +17,7 @@
 
 #+HTML: <div>
 #+HTML: <h2>About Me</h3>
-My name is Antti Joutsi (aka Jarizleifr) and I'm an urban eremite, a Zen Buddhist, a scholar obsessed with myriad subjects, a computer tech enthusiast, a musician and an artist.
+My name is Antti Joutsi, alias ~jarizleifr~, and I'm an urban eremite, a Zen Buddhist, a scholar obsessed with myriad subjects, a computer tech enthusiast, a musician and an artist.
 
 I currently live in Tampere, working at Vincit Oyj as a tech consultant, providing my expertise on the web, e-commerce, peripheral integration and administrative frontends.
 
@@ -35,4 +35,8 @@ The values I hold most dear, are empathy, compassion and self-betterment. I've g
 - First programming language? :: Object Pascal with Borland Delphi 3.0, around 1997--1998.
 - Emacs or Vim? :: Why not both? Among the stars aboard the Evil flagship!
 - Favorite animal? :: [[https://en.wikipedia.org/wiki/Pallas%27s_cat][Manul, or the Pallas's cat]]. I donate monthly towards their conservation efforts.
+- Favorite books? :: Jack Vance's Dying Earth, Frank Herbert's Dune
+- Favorite music? :: Discharge, Darkthrone, Manilla Road, Aphex Twin
+- Favorite games? :: Morrowind, ADOM, Fallout 1/2, Arcanum, Subnautica
+- Favorite movies? :: Heavy Metal (1981), Stalker (1979), Nosferatu (1979), Wizards (1977)
   
