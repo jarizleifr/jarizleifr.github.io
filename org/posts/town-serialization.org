@@ -1,0 +1,55 @@
+#+TITLE: Town serialization in Dregsrealm
+#+DATE: <2022-06-21>
+#+KEYWORDS: gamedev
+
+One of the bigger pain points I've recently had to deal with in Dregsrealm, was how to serialize towns when moving in and out of them, possibly from different directions, as well as saving the game when on top of the town tile, or when saving on the outskirts of the town, while still preserving entity positions correctly.
+
+#+CAPTION: A town on the world map, with a road leading to it 
+[[../img/dregs_town_world.jpg]]
+
+The world map in Dregsrealm is 320x320 world tiles and each zoomed-in tile is a chunk of 64x64 tiles. Loading all the tiles in memory at once would eat up 1,6 gigabytes of memory and slow down to a crawl, which is why the game only loads a 3x3 area of chunks at any given time, meaning we load the chunk on which the player is standing, as well as all the adjacent chunks. Even if the player's world position changes, the actual map tile indices go from [0,0] to [191,191].
+
+#+CAPTION: Player in the middle, with adjacent cells loaded 
+|---+---+---+---+---|
+| - | - | - | - | - |
+| - | X | X | X | - |
+| - | X | @ | X | - |
+| - | X | X | X | - |
+| - | - | - | - | - |
+|---+---+---+---+---|
+
+This chunking system has a side effect, that we need to normalize all entity positions each time we cross a chunk boundary, because our local zoomed-in map is only a 192x192 tile view to a much larger map. This alone isn't such a big deal, we just shift each entity according to the direction the player is going by cell size (64). If an entity ends up outside the loaded chunk matrix, we can just unspawn those entities. This lets us escape from hostile encounters, by just running further from enemies, which is a nice feature.
+
+However, this becomes an issue, when we add towns to this equation.
+
+#+CAPTION: The town gate and a townperson next to main road
+[[../img/dregs_town.jpg]]
+
+We don't want to unspawn town entities (I'll just call them /townies/ from now on), as we want to persist things happening in towns. If our town generation gave us a guild master called Ortog, we want Ortog to be there even after leaving the town and returning next day. (Unless something actually happened to him, but town events are a thing of the future, and not related to this issue at hand.) 
+
+We can also enter towns from any direction, or by teleportation, which means that townie positions can be invalidated at any time.
+
+My solution for this is to always normalize town positions to be based on [0,0], instead of whatever the townies' local positions on the game map are. Because player always occupies the central chunk, we know that [0,0] chunk must always be upper-left from the player. 
+
+If we're at the town chunk and save the game, all townies are shifted by [-64,-64]. When we load the game, the townies are shifted back according to our position. As our position is the same as before, townies are nicely returned to their original positions.
+
+#+CAPTION: The normalization method used in the game 
+#+begin_src csharp
+internal static Vec2 GetTownieNormalization(Vec2 worldPos, Vec2 townPos, bool invert = false) => invert
+  ? new Vec2((townPos.X - worldPos.X + 1) * CELL_SIZE, (townPos.Y - worldPos.Y + 1) * CELL_SIZE)
+  : new Vec2((worldPos.X - townPos.X - 1) * CELL_SIZE, (worldPos.Y - townPos.Y - 1) * CELL_SIZE);
+#+end_src
+
+If we teleport out of the city, all townies are again shifted by [-64,-64] and serialized with the town. Next time we arrive to the town by foot, from some other direction. Our world position has changed, so this time the townies are shifted according to our new position, hopefully being at the same relative places we originally found them.
+
+* Conclusion
+
+I'm not sure if I'm 100% happy with the solution, but so far this little normalization dance has made the game one step closer to having functional cities (which is the last thing missing from the vertical slice that I need for releasing the pre-alpha version).
+
+Now that I can persist townies, I can implement shops with inventories that change only after certain amount of time has passed.
+
+I've wondered if I should just refactor the entire wilderness system to use global coordinates, instead of having to normalize entities on boundary changes, but that is a big change at this point and I suppose it's a tradeoff between normalizing entities or normalizing map indexing instead. I suppose the alternative would be slightly more intuitive, but I don't know if it's worth worrying right now. Anyway, if I decide to refactor this again, I'd like to take that as an opportunity to clean up other stuff related to how maps work, maybe even splitting world, wilderness and interior maps to their own respective classes. But like I said, at this point I'm more concerned with actually getting the pre-alpha to a presentable state.
+
+I was seriously overthinking this already and almost decided to get rid of townie serialization altogether, but I'm happy I managed to at least get it working, as it lets me concentrate on something else for a change.
+
+I feel this is a pretty typical example of how my development process goes. First hack in the feature using whatever there's already in place, then forget about it, ultimately to return on it later with a better view of patterns and inconsistencies, slowly refactoring the feature into something more succinct and fitting for the big picture.

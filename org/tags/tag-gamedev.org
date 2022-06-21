@@ -1,3 +1,4 @@
 #+TITLE: Posts tagged with 'gamedev'
 #+ATTR_HTML: :class posts-list
+- {{{timestamp(2022-06-21)}}} [[file:town-serialization.org][Town serialization in Dregsrealm]] {{{keywords(<a href="/posts/tag-gamedev.html">:gamedev</a>)}}}
 - {{{timestamp(2021-09-25)}}} [[file:ranged-combat-in-dregsrealm.org][Ranged combat in Dregsrealm]] {{{keywords(<a href="/posts/tag-gamedev.html">:gamedev</a>)}}}
