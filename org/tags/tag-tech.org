@@ -1,5 +1,6 @@
 #+TITLE: Posts tagged with 'tech'
 #+ATTR_HTML: :class posts-list
+- {{{timestamp(2022-11-05)}}} [[file:learning-to-learn.org][Learning to learn]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-tech.html">:tech</a>)}}}
 - {{{timestamp(2021-12-19)}}} [[file:site-update.org][Site update]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-tech.html">:tech</a>)}}}
 - {{{timestamp(2021-12-01)}}} [[file:i-post.org][I post, therefore I am]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-tech.html">:tech</a>)}}}
 - {{{timestamp(2021-10-10)}}} [[file:on-workflows.org][On workflows]] {{{keywords(<a href="/posts/tag-tech.html">:tech</a>)}}}
