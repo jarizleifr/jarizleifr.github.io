@@ -1,0 +1,65 @@
+#+TITLE: Tech choices in gamedev
+#+DATE: <2022-12-28>
+#+KEYWORDS: tech,gamedev
+
+One of the greatest misconceptions I've ever had about game development, is that it is a more high-level venture than business software. This comes after the idea, that games are fun, they're playful and they're somewhat chaotic, so obviously programming them in a dynamic language like *Python* or *Lua* would be preferrable to anything else?
+
+This can be true to an extent, especially if we're trying to prototype something, coming up with lots of small things in a short period of time. The leeway dynamic programming languages give us at that point might make us a lot more productive in that time frame.
+
+But looks and feels can deceive, and games are a way more complex and low-level endeavor than what you might expect.
+
+* I want all the abstractions!
+I use *C#* as an example, as that's the language I'm most familiar with, but the same things kinda apply for languages of similar level, like *Java* and *Python*.
+
+Usually games have a some sort of concept of an *Entity*, which is a singular /thing/ in the game world. It can be a player character, an NPC, a consumable item, a piece of equipment, or whatever really.
+
+Having programmed a long time in an object-oriented language, the first obvious ontological thought is of course, that *Entity* should be a class!
+
+We won't use inheritance, because we might want to mix things around. Maybe we want to hold an unconscious NPC like an item. Maybe a sword can have spell charges in it, making it a consumable item as well.
+
+So we go for composition. Our *Entity* class will contain components for any behaviors and that's the end of it.
+
+We start implementing more object-oriented solutions like Command, Observer and Strategy patterns to facilitate better architecture in our game. Let's use functional idioms like LINQ, because it makes everything much more readable, and in the same vein, let's use lambda functions to provide extra flexibility.
+
+Our architecture is very well defined. We use all the tools provided us by the language to great extent and success. We feel smart and good about our code.
+
+We develop like this for months and everything goes smoothly, until we find out that our game has weird lag spikes. Indeed, all the extra allocations we do to use our precious objects, we put more and more pressure on the automatic garbage collector (GC). Each time the GC releases objects no longer in use, we get stutter in the game.
+
+* How can we fix this?
+Obviously, lag spikes are awful. Our game might not even be that demanding visually, but we still fail to hit our FPS targets due to constant GC dumps.
+
+We start rectifying the mistakes of allocating too much inside the game loop. LINQ has got to go, as it is one of the biggest culprits of hidden allocations. We painstakingly replace all of it with regular for/each loops instead. We might still use LINQ in places that are not so performance-critical, but it has no place inside the tightest corners of the game loop.
+
+We might need to implement object pooling to prevent creation of new objects. We loved our lambda functions, but now we realize that they can allocate closures, if they use outside variables, resulting in garbage each time they're called.
+
+Our compositional *Entity* class needs to go as well. Instead, we use preallocated arrays of structs (like an Entity-Component-System) to provide us a cache-coherent and performant way to create and destroy entities without allocation.
+
+You can probably start to see where this is going...
+
+Suddenly we find ourselves fighting against all those abstractions we so carefully constructed. Those of us who work in general software development, know that those OOP patterns and language constructs are your bread and butter. These are the things we do constantly when developing for web or business. But in games it is less than ideal, as the requirements are vastly different.
+
+A server application doesn't have FPS targets and web pages can get away with much less responsiveness than a video game running at vsynced rates.
+
+* The world-weariness hits
+We were so proud for our abstractions and we had to tear them all down. What's even the point? We picked up a high-level language to make development easier, but we're left with nothing but libraries, some syntactic sugar and build tools from the language ecosystem. Our code reminds us nothing of a high-level code base, as we have only structs and other primitives littered all around.
+
+Luckily, if *.NET* and *C#* is what you were indeed using, you are in an ideal position. It works exceptionally well as an intermediate language, because we have things like contiguous arrays, structs and ref returns, which are paramount constructs in low-level programming. We can even use unsafe blocks and raw pointers if we want to get that extra oomph out of it.
+
+Like many *C++* programmers, who use a certain subset of the language, we can use a low-level subset of *C#*, opting out of the features that generate pressure on the GC. Other *C#* programmers will question your sanity and look at your code with fear in their hearts, but it is doable.
+
+But the real hindsight here is, why start building a mountain in an intermediate-level language, if you really need a lower-level language to build that mountain?
+
+* Concluding thoughts
+When I started out, I had no idea why *C++* or even *C* was so prevalent in game development. I assumed them to be somehow archaic languages that are used because of habit and culture instead of their technical qualities.
+
+The bottom line is: Games are low-level. We're concerned with user inputs, graphics, and performance is paramount. We can't really cut corners here, if we want to deliver smooth gameplay. We can prototype things with dynamic and higher-level languages, but they're not necessarily the correct tool for building actual games.
+
+As you might expect, this whole post is somewhat self-biographical and pretty much what I've gone through. I picked up *C#* assuming it's a good match for gamedev, until I realized it kinda wasn't, and then I learnt to use the language in an unorthodox, but semi-workable way to achieve what I was going for.
+
+These days I usually I write more idiomatic *C#* and then strip away abstractions later, when I realize I need more performance, but I have already done a complete rewrite of game twice. I try to console myself, that I had no way of understanding the requirements back then, but it still bothers me, that I need to either continue working in such unoptimal ways, or rewrite *everything*.
+
+There are times when I wish I had kept going with *C* or *C++* instead, but in the end, I'm not sure if there is any exactly optimal language to make games in. Each choice has their own warts and ultimately a game is not successful or unsuccessful because of their tech choices, although it can matter in the long haul.
+
+I'm not sure if *Rust* is the silver bullet I first thought it to be, as it can make some of the more /chaotic/ patterns of game development harder to reconcile with. *Zig* seems quite interesting, as well as *Jai*, but neither of those are not unfortunately production ready yet.
+
+Not necessarily a very satisfying conclusion, but it is what it is. Tools are tools and sometimes an axe is all you have, and you need to hammer in some nails.

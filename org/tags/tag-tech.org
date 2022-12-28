@@ -1,5 +1,6 @@
 #+TITLE: Posts tagged with 'tech'
 #+ATTR_HTML: :class posts-list
+- {{{timestamp(2022-12-28)}}} [[file:tech-choices-in-gamedev.org][Tech choices in gamedev]] {{{keywords(<a href="/posts/tag-gamedev.html">:gamedev</a> <a href="/posts/tag-tech.html">:tech</a>)}}}
 - {{{timestamp(2022-11-05)}}} [[file:learning-to-learn.org][Learning to learn]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-tech.html">:tech</a>)}}}
 - {{{timestamp(2021-12-19)}}} [[file:site-update.org][Site update]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-tech.html">:tech</a>)}}}
 - {{{timestamp(2021-12-01)}}} [[file:i-post.org][I post, therefore I am]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-tech.html">:tech</a>)}}}
