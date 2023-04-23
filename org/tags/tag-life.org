@@ -1,5 +1,6 @@
 #+TITLE: Posts tagged with 'life'
 #+ATTR_HTML: :class posts-list
+- {{{timestamp(2023-04-23)}}} [[file:pilgrimages-2023-torronsuo-liesjarvi.org][Tavastian wilderness and reflections]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-philosophy.html">:philosophy</a> <a href="/posts/tag-travel.html">:travel</a>)}}}
 - {{{timestamp(2022-11-05)}}} [[file:learning-to-learn.org][Learning to learn]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-tech.html">:tech</a>)}}}
 - {{{timestamp(2022-07-01)}}} [[file:on-bitterness.org][On bitterness]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-philosophy.html">:philosophy</a>)}}}
 - {{{timestamp(2022-06-11)}}} [[file:pilgrimages-2022-repovesi.org][Hammocking at Repovesi, Finland]] {{{keywords(<a href="/posts/tag-life.html">:life</a> <a href="/posts/tag-philosophy.html">:philosophy</a> <a href="/posts/tag-travel.html">:travel</a>)}}}
