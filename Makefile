@@ -38,6 +38,7 @@ clean:
 
 $(ORG_SENTINEL): $(ORG_SOURCES)
 	make publish
+	cp html/googleb8481861e1b09337.html docs
 	@touch $@
 
 $(CSS_TARGETS): $(CSS_SOURCES) 
