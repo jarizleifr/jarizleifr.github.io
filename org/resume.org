@@ -1,4 +1,5 @@
 #+TITLE: Resume
+ #+DESCRIPTION: Antti Joutsi's resume
 * Mission
 
 I'm currently employed at *Vincit Oyj* as an IT-consultant, working on customer projects. Most recently I've been working mainly on frontends, using *React*, *Next.js* and *TypeScript*. Looking forward to working on a more full-stack or backend focused roles in the future.

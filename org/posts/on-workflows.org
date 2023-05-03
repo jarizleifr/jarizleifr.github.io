@@ -1,6 +1,7 @@
 #+TITLE: On workflows
 #+DATE: <2021-10-10>
 #+KEYWORDS: tech
+#+DESCRIPTION: I've been a Windows user since time immemorial. One of these days I'll get myself a used laptop and start building my own Arch Linux.
 
 ** Origins
 

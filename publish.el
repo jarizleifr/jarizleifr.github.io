@@ -23,9 +23,12 @@
 )
 
 (defun jzlfr-html-template (contents info)
+  (setq default-description "A personal blog and the primary web presence of the public eccentric Antti Joutsi, aka Jarizleifr.")
+
   (setq page-title (org-export-data (or (plist-get info :title) "") info))
   (setq page-file (org-export-data (plist-get info :input-file) info))
   (setq page-date (org-export-data (or (plist-get info :date) nil) info))
+  (setq page-excerpt (org-export-data (or (plist-get info :description) default-description) info))
   
   (setq is-post (and
 		 (string-match-p (regexp-quote "posts") page-file)
@@ -39,13 +42,13 @@
    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
    "<link rel=\"stylesheet\" href=\"/css/style.css\" type=\"text/css\"/>"
    (format "<title>%s</title>\n" page-title)
-   "<meta name=\"description\" content=\"A personal blog and the primary web presence of the public eccentric Antti Joutsi, aka Jarizleifr.\"> "
+   (format "<meta name=\"description\" content=\"%s\">\n" page-excerpt)
    (format "<meta property=\"og:title\" content=\"%s\">\n" page-title)
    "<meta property=\"og:type\" content=\"website\">\n"
    "<meta property=\"og:image\" content=\"https://jarizleifr.github.io/img/jarizleifr.jpg\">\n"
    (format "<meta property=\"og:url\" content=\"%s\">\n"
 	   (jzlfr-get-url (plist-get info :input-file)))
-   "<meta property=\"og:description\" content=\"A personal blog and the primary web presence of the public eccentric Antti Joutsi, aka Jarizleifr.\">\n"
+   (format "<meta property=\"og:description\" content=\"%s\">\n" page-excerpt)
    "<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">"
    "<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">"
    "<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">"

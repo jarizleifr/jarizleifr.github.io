@@ -1,6 +1,7 @@
 #+TITLE:Greetings from a leave of absence
 #+DATE:<2022-05-10>
 #+KEYWORDS: life
+#+DESCRIPTION: For the past two months I've been on a leave of absence from work.
 
 For the past two months I've been on a leave of absence from work, just to reorient myself a bit in the midst of chaos that our dear world is submerged in at the moment. I do feel truly blessed, as I could afford such a break from both social and corporate activities, being painfully aware that most people who'd deserve a similar pause won't be able to do so. So one can take this diatribe as a general criticism towards our society's relationship with work.
 

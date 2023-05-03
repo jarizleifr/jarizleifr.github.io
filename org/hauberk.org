@@ -1,4 +1,5 @@
 #+TITLE: Crafting a hauberk
+ #+DESCRIPTION: My attempt at creating a properly fitted hauberk of butted mail.
 
 * Medieval obsession
 I've been pretty obsessed with medieval warfare for as long as I can remember. There was something about vikings and knights that was very compelling to a romantic dreamer such as myself. Age of heroism and battle, of loyalty and brotherhood, that I felt was lost in today's world. Of course, those were just fantasies of a young fool, and while I still do appreciate the history, I do not harbour delusions of some lost golden age, where fire and steel would temper fighting men into mythical heroes. The very fact that things like bows, spears and armour were invented, means that fighters in human history did not like getting hit with sharp objects, even if Robert E. Howard or the entire catalogue of Hollywood swashbuckling films tries to convince us otherwise.

@@ -1,6 +1,7 @@
 #+TITLE: Town serialization in Dregsrealm
 #+DATE: <2022-06-21>
 #+KEYWORDS: gamedev
+#+DESCRIPTION: One of the bigger pain points I've recently had to deal with in Dregsrealm, was how to serialize towns when moving in and out of them.
 
 One of the bigger pain points I've recently had to deal with in Dregsrealm, was how to serialize towns when moving in and out of them, possibly from different directions, as well as saving the game when on top of the town tile, or when saving on the outskirts of the town, while still preserving entity positions correctly.
 

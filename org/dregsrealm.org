@@ -1,5 +1,5 @@
 #+TITLE: Dregsrealm
-#+SUBTITLE: A roguelike game about adventures in an everchanging Vancian world.
+#+DESCRIPTION: A roguelike game about adventures in an everchanging Vancian world.
 
 Dregsrealm is a world at the fringes of existence, where all sorts of weird characters tend to end up in, with little to no chance of ever returning. Whatever you ever were in your past life, none of that matters any more, as the looming spires of Vaparaj welcome you to this alien and inhospitable world. 
 

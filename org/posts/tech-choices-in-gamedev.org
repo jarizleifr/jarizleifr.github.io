@@ -1,6 +1,7 @@
 #+TITLE: Tech choices in gamedev
 #+DATE: <2022-12-28>
-#+KEYWORDS: tech,gamedev
+#+KEYWORDS: gamedev,tech
+#+DESCRIPTION: One of the greatest misconceptions I've ever had about game development, is that it is a more high-level venture than business software.
 
 One of the greatest misconceptions I've ever had about game development, is that it is a more high-level venture than business software. This comes after the idea, that games are fun, they're playful and they're somewhat chaotic, so obviously programming them in a dynamic language like *Python* or *Lua* would be preferrable to anything else?
 
