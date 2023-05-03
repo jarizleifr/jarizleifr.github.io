@@ -4,11 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/css/style.css" type="text/css"/><title>Tech choices in gamedev</title>
-<meta name="description" content="A personal blog and the primary web presence of the public eccentric Antti Joutsi, aka Jarizleifr."> <meta property="og:title" content="Tech choices in gamedev">
+<meta name="description" content="One of the greatest misconceptions I've ever had about game development, is that it is a more high-level venture than business software.">
+<meta property="og:title" content="Tech choices in gamedev">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://jarizleifr.github.io/img/jarizleifr.jpg">
 <meta property="og:url" content="https://jarizleifr.github.io/posts/tech-choices-in-gamedev.html">
-<meta property="og:description" content="A personal blog and the primary web presence of the public eccentric Antti Joutsi, aka Jarizleifr.">
+<meta property="og:description" content="One of the greatest misconceptions I've ever had about game development, is that it is a more high-level venture than business software.">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"></head>
 <body>
 <nav>
@@ -44,9 +45,9 @@ This can be true to an extent, especially if we're trying to prototype something
 But looks and feels can deceive, and games are a way more complex and low-level endeavor than what you might expect.
 </p>
 
-<div id="outline-container-org237db30" class="outline-2">
-<h2 id="org237db30">I want all the abstractions!</h2>
-<div class="outline-text-2" id="text-org237db30">
+<div id="outline-container-org25ccb1e" class="outline-2">
+<h2 id="org25ccb1e">I want all the abstractions!</h2>
+<div class="outline-text-2" id="text-org25ccb1e">
 <p>
 I use <b>C#</b> as an example, as that's the language I'm most familiar with, but the same things kinda apply for languages of similar level, like <b>Java</b> and <b>Python</b>.
 </p>
@@ -81,9 +82,9 @@ We develop like this for months and everything goes smoothly, until we find out 
 </div>
 </div>
 
-<div id="outline-container-org83fe66a" class="outline-2">
-<h2 id="org83fe66a">How can we fix this?</h2>
-<div class="outline-text-2" id="text-org83fe66a">
+<div id="outline-container-orga40bfc8" class="outline-2">
+<h2 id="orga40bfc8">How can we fix this?</h2>
+<div class="outline-text-2" id="text-orga40bfc8">
 <p>
 Obviously, lag spikes are awful. Our game might not even be that demanding visually, but we still fail to hit our FPS targets due to constant GC dumps.
 </p>
@@ -114,9 +115,9 @@ A server application doesn't have FPS targets and web pages can get away with mu
 </div>
 </div>
 
-<div id="outline-container-org1613cb6" class="outline-2">
-<h2 id="org1613cb6">The world-weariness hits</h2>
-<div class="outline-text-2" id="text-org1613cb6">
+<div id="outline-container-org7c9959f" class="outline-2">
+<h2 id="org7c9959f">The world-weariness hits</h2>
+<div class="outline-text-2" id="text-org7c9959f">
 <p>
 We were so proud for our abstractions and we had to tear them all down. What's even the point? We picked up a high-level language to make development easier, but we're left with nothing but libraries, some syntactic sugar and build tools from the language ecosystem. Our code reminds us nothing of a high-level code base, as we have only structs and other primitives littered all around.
 </p>
@@ -135,9 +136,9 @@ But the real hindsight here is, why start building a mountain in an intermediate
 </div>
 </div>
 
-<div id="outline-container-orgd3154a6" class="outline-2">
-<h2 id="orgd3154a6">Concluding thoughts</h2>
-<div class="outline-text-2" id="text-orgd3154a6">
+<div id="outline-container-orge69b4ec" class="outline-2">
+<h2 id="orge69b4ec">Concluding thoughts</h2>
+<div class="outline-text-2" id="text-orge69b4ec">
 <p>
 When I started out, I had no idea why <b>C++</b> or even <b>C</b> was so prevalent in game development. I assumed them to be somehow archaic languages that are used because of habit and culture instead of their technical qualities.
 </p>
@@ -172,7 +173,9 @@ Not necessarily a very satisfying conclusion, but it is what it is. Tools are to
   <div class="contact">
     <p>Find me elsewhere:</p>
     <div>
-      <a href="https://github.com/jarizleifr"><img src="/img/github.svg" alt="GitHub" width="20" height="20"/></a><a href="https://www.linkedin.com/in/anttijoutsi"><img src="/img/linkedin.svg" alt="Linkedin" width="20" height="20"/></a>
+      <a href="https://mastodon.social/@jarizleifr" rel="me"><img src="/img/mastodon.svg" alt="Mastodon" width="20" height="20"/></a>
+      <a href="https://github.com/jarizleifr"><img src="/img/github.svg" alt="GitHub" width="20" height="20"/></a>
+      <a href="https://www.linkedin.com/in/anttijoutsi"><img src="/img/linkedin.svg" alt="Linkedin" width="20" height="20"/></a>
     </div>
     <p>Send me an email:<br/><a href="mailto:antti.joutsi@gmail.com">antti.joutsi@gmail.com</a></p>
   </div>
@@ -180,7 +183,7 @@ Not necessarily a very satisfying conclusion, but it is what it is. Tools are to
     <a href="https://creativecommons.org/licenses/by/4.0/">
       <img src="/img/by.svg" alt="CC-BY" />
     </a>
-    <p>Text content on this website is licensed under the Creative Commons Attribution 4.0 International License.<br/>All images, except where otherwise noted, are all rights reserved © 2022 Antti Joutsi, and you must request a permission to use this material.</p>
+    <p>Text content on this website is licensed under the Creative Commons Attribution 4.0 International License.<br/>All images, except where otherwise noted, are all rights reserved © 2023 Antti Joutsi, and you must request a permission to use this material.</p>
   </div>
 </footer>
 </body>
