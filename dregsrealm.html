@@ -55,9 +55,9 @@ The ultimate goal is to have a living and breathing world, where you can meet ot
 Mechanically, the game is very much inspired by roguelike classics like <b>NetHack</b>, <b>ADOM</b>, <b>Angband</b>, as well as the more simulationist CRPG games like <b>Daggerfall</b>, <b>Darklands</b>, <b>Mount &amp; Blade</b>.
 </p>
 
-<div id="outline-container-orgea2521a" class="outline-2">
-<h2 id="orgea2521a">The game system</h2>
-<div class="outline-text-2" id="text-orgea2521a">
+<div id="outline-container-orgfe02424" class="outline-2">
+<h2 id="orgfe02424">The game system</h2>
+<div class="outline-text-2" id="text-orgfe02424">
 <p>
 Dregsrealm features a completely bespoke role-playing system, that I've dubbed as the <b>SEFIRA</b> system, representing the primary character statistics of <b>Strength</b>, <b>Endurance</b>, <b>Finesse</b>, <b>Intellect</b>, <b>Resolve</b> and <b>Awareness</b>, the first three being the physical abilities, and the latter three being the mental abilities.
 </p>
@@ -82,9 +82,9 @@ There are four distinct objectives in the game:
 </div>
 </div>
 
-<div id="outline-container-orgd277f81" class="outline-2">
-<h2 id="orgd277f81">Some history (and technical tidbits)</h2>
-<div class="outline-text-2" id="text-orgd277f81">
+<div id="outline-container-org5097f12" class="outline-2">
+<h2 id="org5097f12">Some history (and technical tidbits)</h2>
+<div class="outline-text-2" id="text-org5097f12">
 <p>
 I got into playing <b>ADOM</b> in 1999, before the game had reached it's 1.0 version. I was completely blown away by the depth of that game and I still pick it up every now and then. I've beaten it multiple times, also having an ultra win under my belt.
 </p>
@@ -107,9 +107,9 @@ The game was still called <b>Waste Drudgers</b> at that point. This was the furt
 </div>
 </div>
 
-<div id="outline-container-orgc84f8c2" class="outline-2">
-<h2 id="orgc84f8c2">Transitional period</h2>
-<div class="outline-text-2" id="text-orgc84f8c2">
+<div id="outline-container-org9de1dab" class="outline-2">
+<h2 id="org9de1dab">Transitional period</h2>
+<div class="outline-text-2" id="text-org9de1dab">
 <p>
 To be frank, my C++ codebase was horrible. I had no grasp of proper architectural patterns and each new feature was a pain to add. Performance was poor, as I had little knowledge of 2D graphics optimization. The game was just a big bowl of brute force spaghetti and I was getting increasingly frustrated with it.
 </p>
@@ -128,9 +128,9 @@ Best lesson from this was that a game engine can absolutely be overkill. You nee
 </div>
 </div>
 
-<div id="outline-container-org01db5ba" class="outline-2">
-<h2 id="org01db5ba">The present</h2>
-<div class="outline-text-2" id="text-org01db5ba">
+<div id="outline-container-org0610ffb" class="outline-2">
+<h2 id="org0610ffb">The present</h2>
+<div class="outline-text-2" id="text-org0610ffb">
 <p>
 I did not work on the Unity version of the game for long, but my dip in Unity was nevertheless a fruitful one. I learnt how to implement pathfinding algorithms on my own, as well as increased my understanding of C#, which led me to the next iteration of the game, as I had no need for <code>libtcod</code> or any game framework really for that matter. I really liked how C# made me much more productive as a programmer, as I didn't have to worry about header files (although I think these days C++ has support for module imports) and C# has some very nice syntactic sugar, which makes it a very comfy language to program in, in my opinion.
 </p>
@@ -148,9 +148,9 @@ Since switching to .NET, I've split my game into a few components, to facilitate
 </p>
 </div>
 
-<div id="outline-container-org672b189" class="outline-3">
-<h3 id="org672b189">ManulECS</h3>
-<div class="outline-text-3" id="text-org672b189">
+<div id="outline-container-orgfefb1a5" class="outline-3">
+<h3 id="orgfefb1a5">ManulECS</h3>
+<div class="outline-text-3" id="text-orgfefb1a5">
 <p>
 <a href="https://github.com/jarizleifr/manulecs">ManulECS</a> is an Entity-Component-System library, which I implemented specifically to use in my own game. It has gone through multiple iterations and optimizations and I'm pretty happy with its current state. To be frank, the performance implications of using an ECS is not the real reason for me using one, but the ease of composition and serialization of the world state. The actions in my game are so complex, that I probably blow the CPU cache on each system, but that doesn't matter, as gameplay is not a bottleneck.
 </p>
@@ -161,9 +161,9 @@ ManulECS is a very minimal implementation, working almost like a standard contai
 </div>
 </div>
 
-<div id="outline-container-org77a81da" class="outline-3">
-<h3 id="org77a81da">Blaggard</h3>
-<div class="outline-text-3" id="text-org77a81da">
+<div id="outline-container-org09ed7f6" class="outline-3">
+<h3 id="org09ed7f6">Blaggard</h3>
+<div class="outline-text-3" id="text-org09ed7f6">
 <p>
 A play on the word <b>rogue</b>. Blaggard (from blackguard) is not exactly a game engine, but a library, that provides a Context object, which is an abstraction over SDL2 for operations like drawing graphics, handling input and playing audio. It's kinda like a lite version of <code>libtcod</code>, albeit without pathfinding and FOV algorithms (those are part of the game proper). 
 </p>
@@ -174,9 +174,9 @@ Blaggard lacks polish and isn't as mature as ManulECS and I haven't really gotte
 </div>
 </div>
 
-<div id="outline-container-org9e93947" class="outline-3">
-<h3 id="org9e93947">Dregsrealm</h3>
-<div class="outline-text-3" id="text-org9e93947">
+<div id="outline-container-orge65cca1" class="outline-3">
+<h3 id="orge65cca1">Dregsrealm</h3>
+<div class="outline-text-3" id="text-orge65cca1">
 <p>
 The core game application, which apart from the other components, is currently proprietary. I've poured so much of my own heartblood into this, that I don't dare to put it up on display just yet. I might release the source code some day in the future. The game assets are stored in external files, accommodating easy development and maybe even modding at some point. 
 </p>

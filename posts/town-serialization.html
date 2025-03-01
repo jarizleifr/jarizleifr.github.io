@@ -41,7 +41,7 @@ One of the bigger pain points I've recently had to deal with in Dregsrealm, was 
 </p>
 
 
-<figure id="org0d28882">
+<figure id="org2e980e2">
 <img src="../img/dregs_town_world.jpg" alt="dregs_town_world.jpg">
 
 <figcaption><span class="figure-number">Figure 1: </span>A town on the world map, with a road leading to it</figcaption>
@@ -117,7 +117,7 @@ However, this becomes an issue, when we add towns to this equation.
 </p>
 
 
-<figure id="org7d09fa9">
+<figure id="org576e5dc">
 <img src="../img/dregs_town.jpg" alt="dregs_town.jpg">
 
 <figcaption><span class="figure-number">Figure 2: </span>The town gate and a townperson next to main road</figcaption>
@@ -150,9 +150,9 @@ If we're at the town chunk and save the game, all townies are shifted by [-64,-6
 If we teleport out of the city, all townies are again shifted by [-64,-64] and serialized with the town. Next time we arrive to the town by foot, from some other direction. Our world position has changed, so this time the townies are shifted according to our new position, hopefully being at the same relative places we originally found them.
 </p>
 
-<div id="outline-container-org4fb31bf" class="outline-2">
-<h2 id="org4fb31bf">Conclusion</h2>
-<div class="outline-text-2" id="text-org4fb31bf">
+<div id="outline-container-orgdacc741" class="outline-2">
+<h2 id="orgdacc741">Conclusion</h2>
+<div class="outline-text-2" id="text-orgdacc741">
 <p>
 I'm not sure if I'm 100% happy with the solution, but so far this little normalization dance has made the game one step closer to having functional cities (which is the last thing missing from the vertical slice that I need for releasing the pre-alpha version).
 </p>
