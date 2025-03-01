@@ -2,6 +2,8 @@
 (package-initialize)
 
 (unless (package-installed-p 'ox-rss)
+  (add-to-list 'package-archives '("nongnu" . "https://elpa.nongnu.org/nongnu/") t)
+  (add-to-list 'package-archives '("melpa"  . "https://melpa.org/packages/")     t)
   (package-refresh-contents)
   (package-install 'ox-rss))
 

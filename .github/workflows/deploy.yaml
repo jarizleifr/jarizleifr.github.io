@@ -18,6 +18,11 @@ jobs:
         sudo apt-get update -y
         sudo apt-get install -y sass
 
+    - name: Setup imagemagick
+      run: |
+        sudo apt-get update -y
+        sudo apt-get install -y imagemagick
+
     - name: Checkout repository
       uses: actions/checkout@v2
 
