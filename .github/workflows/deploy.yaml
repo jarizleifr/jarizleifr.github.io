@@ -13,10 +13,8 @@ jobs:
       with:
         version: 28.2
 
-    - name: Setup sass
-      run: |
-        sudo apt-get update -y
-        sudo apt-get install -y sass
+    - name: Install Dart Sass
+      run: sudo snap install dart-sass
 
     - name: Setup imagemagick
       run: |
@@ -27,7 +25,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build 'docs'
-      run: make
+      run: make SASS=dart-sass
 
     - name: Deploy to 'gh-pages' branch
       uses: JamesIves/github-pages-deploy-action@4.1.7

@@ -1,4 +1,5 @@
 # Makefile for Jarizleifr blog
+SASS ?= sass
 
 ORG_SOURCES = $(wildcard **/*.org) $(wildcard html/*.html) elisp/publish.el
 ORG_SENTINEL = docs/.org.sentinel
@@ -44,7 +45,7 @@ $(ORG_SENTINEL): $(ORG_SOURCES)
 $(CSS_TARGETS): $(CSS_SOURCES) 
 	@echo "Compiling Sass into CSS..."
 	mkdir -p docs/css
-	sass org/css/style.scss $@
+	$(SASS) org/css/style.scss $@
 
 $(GALLERY_SENTINEL): $(GALLERY_SOURCES)
 	@echo "Creating gallery thumbnails..."
