@@ -1,0 +1,15 @@
+#+TITLE: A small site update (RSS!)
+#+DATE: <2025-03-01>
+#+KEYWORDS: tech
+#+EXCERPT: An overdue site update that I finally got around to. Added RSS support!
+
+Ever since I started posting on [[https://mastodon.social/@jarizleifr][Mastodon]], I've noticed I have less of an urge to post to my blog. I've been active for about two years there now, and it simply coincides with the slow desolation of my web site.
+
+Anyway, I finally got around to doing a small update, which will facilitate future posts as well. I fixed some of the deprecated parts of SASS I still had around (mainly ~@import~ statements), as well as finally got around to figuring out ~ox-rss~ for generating an RSS feed for my posts.
+
+I really like RSS as a technology and I use it myself profusely to read news and to collect interesting stuff into my feed reader (I use [[https://addons.mozilla.org/en-US/firefox/addon/feedbroreader/][Feedbro for Firefox]], there's bound to be better solutions and I always forget to take backups of my feeds, but it has served me so far and it doesn't cause me enough pain to switch just yet.)
+
+* On styles
+I also got a patronizing email from Google telling me to increase font sizes on my site for mobile, or they won't index it anymore. Frankly, I don't care for mobile support that much and it's not like Google's search is capable of finding anything of value anymore anyway. I might look into it if I have time, but I will always focus on how the site looks and feels on desktop.
+
+I'd be actually tempted to simplify the CSS on the pages a bit, because I've found doing backend only for 2-3 years means I've literally forgotten how to deal with CSS. Now I just dread changing anything since I haven't touched it in ages. Oh well, that's the nature of this business - you get to a certain point in your career and notice you've forgotten more things than what you currently know.
