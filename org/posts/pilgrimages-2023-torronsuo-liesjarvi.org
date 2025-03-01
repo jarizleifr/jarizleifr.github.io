@@ -1,7 +1,7 @@
 #+TITLE:Tavastian wilderness and reflections
 #+DATE:<2023-04-23>
 #+KEYWORDS: life,philosophy,travel
-#+EXCERPT: I had the pleasure to visit the Tavastian heartland for four days.
+#+DESCRIPTION: I had the pleasure to visit the Tavastian heartland for four days.
 
 Last week, I had the pleasure to visit the Tavastian heartland for four days, doing a somewhat more intensive trek than any of the ones I've been to so far. Me and my friend walked a total of around 43 kilometers, with about two-thirds of it with heavy backpacks on.
 

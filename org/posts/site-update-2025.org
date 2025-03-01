@@ -1,7 +1,7 @@
 #+TITLE: A small site update (RSS!)
 #+DATE: <2025-03-01>
 #+KEYWORDS: tech
-#+EXCERPT: An overdue site update that I finally got around to. Added RSS support!
+#+DESCRIPTION: An overdue site update that I finally got around to. Added RSS support!
 
 Ever since I started posting on [[https://mastodon.social/@jarizleifr][Mastodon]], I've noticed I have less of an urge to post to my blog. I've been active for about two years there now, and it simply coincides with the slow desolation of my web site.
 

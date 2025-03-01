@@ -44,7 +44,7 @@
   (setq page-title (org-export-data (or (plist-get info :title) "") info))
   (setq page-file (org-export-data (plist-get info :input-file) info))
   (setq page-date (org-export-data (or (plist-get info :date) nil) info))
-  (setq page-excerpt (org-export-data (or (plist-get info :excerpt)
+  (setq page-excerpt (org-export-data (or (plist-get info :description)
                                           default-description) info))
   
   (setq is-post (and
@@ -63,7 +63,7 @@
    (format "<meta name=\"description\" content=\"%s\">\n" page-excerpt)
    (format "<meta property=\"og:title\" content=\"%s\">\n" page-title)
    "<meta property=\"og:type\" content=\"website\">\n"
-   (format "<meta property\"og:image\" content=\"%s/img/jarizleifr.jpg\">\n" domain)
+   (format "<meta property=\"og:image\" content=\"%simg/jarizleifr.jpg\">\n" domain)
    (format "<meta property=\"og:url\" content=\"%s\">\n"
 	   (jzlfr-get-url (plist-get info :input-file)))
    (format "<meta property=\"og:description\" content=\"%s\">\n" page-excerpt)
@@ -106,6 +106,9 @@
              ;; Remove leading "* " before returning
              (goto-char (point-min))
              (when (looking-at "^\\* ") (delete-char 2))
+             ;; Remove properties as they mess up final RSS file
+             (delete-matching-lines "^#\\+KEYWORDS:" (point-min) (point-max))
+             (delete-matching-lines "^#\\+DESCRIPTION:" (point-min) (point-max))
              (buffer-string))))
         ((eq style 'tree)
          ;; Return only last subdir.
