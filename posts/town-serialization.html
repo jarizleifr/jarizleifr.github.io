@@ -3,14 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/style.css" type="text/css"/><title>Town serialization in Dregsrealm</title>
-<meta name="description" content="One of the bigger pain points I've recently had to deal with in Dregsrealm, was how to serialize towns when moving in and out of them.">
+<link rel="stylesheet" href="/css/style.css" type="text/css"/><link rel="alternate" href="/rss.xml" type="application/rss+xml" title="RSS Feed for Jarizleifr's Web of Weird"/><title>Town serialization in Dregsrealm</title>
+<meta name="description" content="A personal blog and the primary web presence of the public eccentric Antti Joutsi, aka Jarizleifr.">
 <meta property="og:title" content="Town serialization in Dregsrealm">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://jarizleifr.github.io/img/jarizleifr.jpg">
+<meta property"og:image" content="https://jarizleifr.github.io//img/jarizleifr.jpg">
 <meta property="og:url" content="https://jarizleifr.github.io/posts/town-serialization.html">
-<meta property="og:description" content="One of the bigger pain points I've recently had to deal with in Dregsrealm, was how to serialize towns when moving in and out of them.">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"></head>
+<meta property="og:description" content="A personal blog and the primary web presence of the public eccentric Antti Joutsi, aka Jarizleifr.">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
 <body>
 <nav>
   <ol>
@@ -38,7 +41,7 @@ One of the bigger pain points I've recently had to deal with in Dregsrealm, was 
 </p>
 
 
-<figure id="org6d29903">
+<figure id="org29f7253">
 <img src="../img/dregs_town_world.jpg" alt="dregs_town_world.jpg">
 
 <figcaption><span class="figure-number">Figure 1: </span>A town on the world map, with a road leading to it</figcaption>
@@ -114,7 +117,7 @@ However, this becomes an issue, when we add towns to this equation.
 </p>
 
 
-<figure id="org842e74a">
+<figure id="org77d9171">
 <img src="../img/dregs_town.jpg" alt="dregs_town.jpg">
 
 <figcaption><span class="figure-number">Figure 2: </span>The town gate and a townperson next to main road</figcaption>
@@ -147,9 +150,9 @@ If we're at the town chunk and save the game, all townies are shifted by [-64,-6
 If we teleport out of the city, all townies are again shifted by [-64,-64] and serialized with the town. Next time we arrive to the town by foot, from some other direction. Our world position has changed, so this time the townies are shifted according to our new position, hopefully being at the same relative places we originally found them.
 </p>
 
-<div id="outline-container-org432933a" class="outline-2">
-<h2 id="org432933a">Conclusion</h2>
-<div class="outline-text-2" id="text-org432933a">
+<div id="outline-container-org923c580" class="outline-2">
+<h2 id="org923c580">Conclusion</h2>
+<div class="outline-text-2" id="text-org923c580">
 <p>
 I'm not sure if I'm 100% happy with the solution, but so far this little normalization dance has made the game one step closer to having functional cities (which is the last thing missing from the vertical slice that I need for releasing the pre-alpha version).
 </p>
@@ -180,13 +183,13 @@ I feel this is a pretty typical example of how my development process goes. Firs
       <a href="https://github.com/jarizleifr"><img src="/img/github.svg" alt="GitHub" width="20" height="20"/></a>
       <a href="https://www.linkedin.com/in/anttijoutsi"><img src="/img/linkedin.svg" alt="Linkedin" width="20" height="20"/></a>
     </div>
-    <p>Send me an email:<br/><a href="mailto:antti.joutsi@gmail.com">antti.joutsi@gmail.com</a></p>
+    <p>Send me an email:<br/><a href="mailto:antti.joutsi@tutamail.com">antti.joutsi@tutamail.com</a></p>
   </div>
   <div class="cc-by">
     <a href="https://creativecommons.org/licenses/by/4.0/">
       <img src="/img/by.svg" alt="CC-BY" />
     </a>
-    <p>Text content on this website is licensed under the Creative Commons Attribution 4.0 International License.<br/>All images, except where otherwise noted, are all rights reserved © 2023 Antti Joutsi, and you must request a permission to use this material.</p>
+    <p>Text content on this website is licensed under the Creative Commons Attribution 4.0 International License.<br/>All images, except where otherwise noted, are all rights reserved © Antti Joutsi, and you must request a permission to use this material.</p>
   </div>
 </footer>
 </body>

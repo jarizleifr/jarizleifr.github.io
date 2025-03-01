@@ -3,14 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/style.css" type="text/css"/><title>Dregsrealm</title>
-<meta name="description" content="A roguelike game about adventures in an everchanging Vancian world.">
+<link rel="stylesheet" href="/css/style.css" type="text/css"/><link rel="alternate" href="/rss.xml" type="application/rss+xml" title="RSS Feed for Jarizleifr's Web of Weird"/><title>Dregsrealm</title>
+<meta name="description" content="A personal blog and the primary web presence of the public eccentric Antti Joutsi, aka Jarizleifr.">
 <meta property="og:title" content="Dregsrealm">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://jarizleifr.github.io/img/jarizleifr.jpg">
+<meta property"og:image" content="https://jarizleifr.github.io//img/jarizleifr.jpg">
 <meta property="og:url" content="https://jarizleifr.github.io/dregsrealm.html">
-<meta property="og:description" content="A roguelike game about adventures in an everchanging Vancian world.">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"></head>
+<meta property="og:description" content="A personal blog and the primary web presence of the public eccentric Antti Joutsi, aka Jarizleifr.">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
 <body>
 <nav>
   <ol>
@@ -52,9 +55,9 @@ The ultimate goal is to have a living and breathing world, where you can meet ot
 Mechanically, the game is very much inspired by roguelike classics like <b>NetHack</b>, <b>ADOM</b>, <b>Angband</b>, as well as the more simulationist CRPG games like <b>Daggerfall</b>, <b>Darklands</b>, <b>Mount &amp; Blade</b>.
 </p>
 
-<div id="outline-container-org942fcb3" class="outline-2">
-<h2 id="org942fcb3">The game system</h2>
-<div class="outline-text-2" id="text-org942fcb3">
+<div id="outline-container-orgc99feb9" class="outline-2">
+<h2 id="orgc99feb9">The game system</h2>
+<div class="outline-text-2" id="text-orgc99feb9">
 <p>
 Dregsrealm features a completely bespoke role-playing system, that I've dubbed as the <b>SEFIRA</b> system, representing the primary character statistics of <b>Strength</b>, <b>Endurance</b>, <b>Finesse</b>, <b>Intellect</b>, <b>Resolve</b> and <b>Awareness</b>, the first three being the physical abilities, and the latter three being the mental abilities.
 </p>
@@ -79,9 +82,9 @@ There are four distinct objectives in the game:
 </div>
 </div>
 
-<div id="outline-container-orgbd5fd9a" class="outline-2">
-<h2 id="orgbd5fd9a">Some history (and technical tidbits)</h2>
-<div class="outline-text-2" id="text-orgbd5fd9a">
+<div id="outline-container-orga0c7d5c" class="outline-2">
+<h2 id="orga0c7d5c">Some history (and technical tidbits)</h2>
+<div class="outline-text-2" id="text-orga0c7d5c">
 <p>
 I got into playing <b>ADOM</b> in 1999, before the game had reached it's 1.0 version. I was completely blown away by the depth of that game and I still pick it up every now and then. I've beaten it multiple times, also having an ultra win under my belt.
 </p>
@@ -104,9 +107,9 @@ The game was still called <b>Waste Drudgers</b> at that point. This was the furt
 </div>
 </div>
 
-<div id="outline-container-org6c10b35" class="outline-2">
-<h2 id="org6c10b35">Transitional period</h2>
-<div class="outline-text-2" id="text-org6c10b35">
+<div id="outline-container-orgb0f1186" class="outline-2">
+<h2 id="orgb0f1186">Transitional period</h2>
+<div class="outline-text-2" id="text-orgb0f1186">
 <p>
 To be frank, my C++ codebase was horrible. I had no grasp of proper architectural patterns and each new feature was a pain to add. Performance was poor, as I had little knowledge of 2D graphics optimization. The game was just a big bowl of brute force spaghetti and I was getting increasingly frustrated with it.
 </p>
@@ -125,9 +128,9 @@ Best lesson from this was that a game engine can absolutely be overkill. You nee
 </div>
 </div>
 
-<div id="outline-container-org1dc7ad5" class="outline-2">
-<h2 id="org1dc7ad5">The present</h2>
-<div class="outline-text-2" id="text-org1dc7ad5">
+<div id="outline-container-orgfffd115" class="outline-2">
+<h2 id="orgfffd115">The present</h2>
+<div class="outline-text-2" id="text-orgfffd115">
 <p>
 I did not work on the Unity version of the game for long, but my dip in Unity was nevertheless a fruitful one. I learnt how to implement pathfinding algorithms on my own, as well as increased my understanding of C#, which led me to the next iteration of the game, as I had no need for <code>libtcod</code> or any game framework really for that matter. I really liked how C# made me much more productive as a programmer, as I didn't have to worry about header files (although I think these days C++ has support for module imports) and C# has some very nice syntactic sugar, which makes it a very comfy language to program in, in my opinion.
 </p>
@@ -145,9 +148,9 @@ Since switching to .NET, I've split my game into a few components, to facilitate
 </p>
 </div>
 
-<div id="outline-container-org694983c" class="outline-3">
-<h3 id="org694983c">ManulECS</h3>
-<div class="outline-text-3" id="text-org694983c">
+<div id="outline-container-orga274531" class="outline-3">
+<h3 id="orga274531">ManulECS</h3>
+<div class="outline-text-3" id="text-orga274531">
 <p>
 <a href="https://github.com/jarizleifr/manulecs">ManulECS</a> is an Entity-Component-System library, which I implemented specifically to use in my own game. It has gone through multiple iterations and optimizations and I'm pretty happy with its current state. To be frank, the performance implications of using an ECS is not the real reason for me using one, but the ease of composition and serialization of the world state. The actions in my game are so complex, that I probably blow the CPU cache on each system, but that doesn't matter, as gameplay is not a bottleneck.
 </p>
@@ -158,9 +161,9 @@ ManulECS is a very minimal implementation, working almost like a standard contai
 </div>
 </div>
 
-<div id="outline-container-orgbb89d84" class="outline-3">
-<h3 id="orgbb89d84">Blaggard</h3>
-<div class="outline-text-3" id="text-orgbb89d84">
+<div id="outline-container-org91fb65f" class="outline-3">
+<h3 id="org91fb65f">Blaggard</h3>
+<div class="outline-text-3" id="text-org91fb65f">
 <p>
 A play on the word <b>rogue</b>. Blaggard (from blackguard) is not exactly a game engine, but a library, that provides a Context object, which is an abstraction over SDL2 for operations like drawing graphics, handling input and playing audio. It's kinda like a lite version of <code>libtcod</code>, albeit without pathfinding and FOV algorithms (those are part of the game proper). 
 </p>
@@ -171,9 +174,9 @@ Blaggard lacks polish and isn't as mature as ManulECS and I haven't really gotte
 </div>
 </div>
 
-<div id="outline-container-orga3f85c7" class="outline-3">
-<h3 id="orga3f85c7">Dregsrealm</h3>
-<div class="outline-text-3" id="text-orga3f85c7">
+<div id="outline-container-org689c03e" class="outline-3">
+<h3 id="org689c03e">Dregsrealm</h3>
+<div class="outline-text-3" id="text-org689c03e">
 <p>
 The core game application, which apart from the other components, is currently proprietary. I've poured so much of my own heartblood into this, that I don't dare to put it up on display just yet. I might release the source code some day in the future. The game assets are stored in external files, accommodating easy development and maybe even modding at some point. 
 </p>
@@ -189,13 +192,13 @@ The core game application, which apart from the other components, is currently p
       <a href="https://github.com/jarizleifr"><img src="/img/github.svg" alt="GitHub" width="20" height="20"/></a>
       <a href="https://www.linkedin.com/in/anttijoutsi"><img src="/img/linkedin.svg" alt="Linkedin" width="20" height="20"/></a>
     </div>
-    <p>Send me an email:<br/><a href="mailto:antti.joutsi@gmail.com">antti.joutsi@gmail.com</a></p>
+    <p>Send me an email:<br/><a href="mailto:antti.joutsi@tutamail.com">antti.joutsi@tutamail.com</a></p>
   </div>
   <div class="cc-by">
     <a href="https://creativecommons.org/licenses/by/4.0/">
       <img src="/img/by.svg" alt="CC-BY" />
     </a>
-    <p>Text content on this website is licensed under the Creative Commons Attribution 4.0 International License.<br/>All images, except where otherwise noted, are all rights reserved © 2023 Antti Joutsi, and you must request a permission to use this material.</p>
+    <p>Text content on this website is licensed under the Creative Commons Attribution 4.0 International License.<br/>All images, except where otherwise noted, are all rights reserved © Antti Joutsi, and you must request a permission to use this material.</p>
   </div>
 </footer>
 </body>

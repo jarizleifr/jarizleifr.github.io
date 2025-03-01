@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>RSS</title>
+  <atom:link href="https://jarizleifr.github.io/rss.xml" rel="self" type="application/rss+xml" />
+  <link>https://jarizleifr.github.io/</link>
+  <description><![CDATA[this is a test description]]></description>
+  <language>en</language>
+  <pubDate>Sat, 01 Mar 2025 11:34:19 +0000</pubDate>
+  <lastBuildDate>Sat, 01 Mar 2025 11:34:19 +0000</lastBuildDate>
+  <generator>Emacs 28.2 Org-mode 9.5.5</generator>
+  <webMaster>antti.joutsi@tutamail.com (jarizleifr)</webMaster>
+  <image>
+    <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>RSS</title>
+    <link>https://jarizleifr.github.io/</link>
+  </image>
+
+  <item>
+    <title>A small site update (RSS!)</title>
+    <link>https://jarizleifr.github.io/posts/site-update-2025.html</link>
+    <author>antti.joutsi@tutamail.com (jarizleifr)</author>
+    <guid isPermaLink="false">https://jarizleifr.github.io/posts/site-update-2025.html</guid>
+    <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    Ever since I started posting on <a href="https://mastodon.social/@jarizleifr">Mastodon</a>, I've noticed I have less of an urge to post to my blog. I've been active for about two years there now, and it simply coincides with the slow desolation of my web site.
+    </p>
+
+    <p>
+    Anyway, I finally got around to doing a small update, which will facilitate future posts as well. I fixed some of the deprecated parts of SASS I still had around (mainly <code>@import</code> statements), as well as finally got around to figuring out <code>ox-rss</code> for generating an RSS feed for my posts.
+    </p>
+
+    <p>
+    I really like RSS as a technology and I use it myself profusely to read news and to collect interesting stuff into my feed reader (I use <a href="https://addons.mozilla.org/en-US/firefox/addon/feedbroreader/">Feedbro for Firefox</a>, there's bound to be better solutions and I always forget to take backups of my feeds, but it has served me so far and it doesn't cause me enough pain to switch just yet.)
+    </p>
+
+    <div id="outline-container-orgc571f09" class="outline-3">
+    <h3 id="orgc571f09"><span class="section-number-3">1.1.</span> On styles</h3>
+    <div class="outline-text-3" id="text-1-1">
+    <p>
+    I also got a patronizing email from Google telling me to increase font sizes on my site for mobile, or they won't index it anymore. Frankly, I don't care for mobile support that much and it's not like Google's search is capable of finding anything of value anymore anyway. I might look into it if I have time, but I will always focus on how the site looks and feels on desktop.
+    </p>
+
+    <p>
+    I'd be actually tempted to simplify the CSS on the pages a bit, because I've found doing backend only for 2-3 years means I've literally forgotten how to deal with CSS. Now I just dread changing anything since I haven't touched it in ages. Oh well, that's the nature of this business - you get to a certain point in your career and notice you've forgotten more things than what you currently know.
+    </p>
+    </div>
+    </div>
+    ]]></description>
+  </item>
+  <item>
+    <title>Tavastian wilderness and reflections</title>
+    <link>https://jarizleifr.github.io/posts/pilgrimages-2023-torronsuo-liesjarvi.html</link>
+    <author>antti.joutsi@tutamail.com (jarizleifr)</author>
+    <guid isPermaLink="false">https://jarizleifr.github.io/posts/pilgrimages-2023-torronsuo-liesjarvi.html</guid>
+    <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    Last week, I had the pleasure to visit the Tavastian heartland for four days, doing a somewhat more intensive trek than any of the ones I've been to so far. Me and my friend walked a total of around 43 kilometers, with about two-thirds of it with heavy backpacks on.
+    </p>
+
+    <p>
+    I was slightly worried about the endurance of my feet, as I just got new boots and didn't really have time to properly break them in, maybe having travelled around 30 kilometers in them before undertaking this trip, but they carried me gladly the whole trip.
+    </p>
+
+    <p>
+    Our plan was to embark on Ilvesreitti (lit. Lynx trail), which connects many of the Tavastian natural reserves, national parks and other places of interests, so one could theoretically trek more than 200 kilometers on this trail, although some of the connecting paths go alongside roads, quarries and industrial forests, so it's not really a continuous landscape route. At least it well underlines the fact how splintered and precious Finnish nature reserves are.
+    </p>
+
+    <div id="outline-container-org5cd68d4" class="outline-3">
+    <h3 id="org5cd68d4"><span class="section-number-3">2.1.</span> Torronsuo and Ruostejärvi (First night)</h3>
+    <div class="outline-text-3" id="text-2-1">
+    <p>
+    We arrived at Eerikkilä Sport &amp; Outdoor Resort at Ruostejärvi (lit. Rust lake) on the Wednesday afternoon of 12th of April, 2023. The resort was a noisy, unpleasant place, but luckily we didn't have to suffer the presence of loud-mouthed sports youth long, as Eerikkilä was just a staging ground for our first day of travel.
+    </p>
+
+    <p>
+    We left the resort northwestward, towards the Torronsuo national park, which is a large and deep swamp in the Tavastia Proper, Finland. The trail was in a bad shape at some places and we had to cross many flooding ditches where duckboards were completely submerged or rotten out of existence. An interesting phenomenon happened whenever we reached a more dense swamp basin, as it emanated colder air than anywhere else in the forest. It was springtime after all and most of the snow had already melted, but clearly through some odd landscape formation, the ground was in deep enough frost for it to affect the temperatures around it tremendously.
+    </p>
+
+    <p>
+    We slightly deviated from our planned path, as was eminent from the amount of water in ditches, the areas crossing the swamp proper could prove to be hard to cross, so we took a secondary route. In hindsight, the secondary route probably wasn't that much better, as most of the problematic ditches were on that stretch of trail. But nevertheless, we managed to reach the eastern extent of Torronsuo without too much trouble.
+    </p>
+
+    <p>
+    The Torronsuo proper was an awe-inspiring sight. The immense skies opened in front of us and we were greeted with birdsongs of all imaginable forms. We stopped to relax a bit, fix ourselves some supper and just listen the birds singing.
+    </p>
+
+    <p>
+    We wanted to get back to a shelter before dark, so we didn't stay for too long. The return trip back to Eerikkilä was somewhat uneventful - boring, but fairly easy terrain. The sun was just setting, when we reached our vehicle and moved it to the other side of the lake, to seek out a place to sleep.
+    </p>
+
+    <p>
+    On a hill on the southeastern coast of Ruostejärvi, there was a nice lean-to shelter, which we found luckily unoccupied. We put down our gear, chopped some firewood and stayed there for the night. It probably went below zero Celcius during the night and I did sleep a little restlessly, but all-in-all, it was a good night.
+    </p>
+    </div>
+    </div>
+
+    <div id="outline-container-org1fb4822" class="outline-3">
+    <h3 id="org1fb4822"><span class="section-number-3">2.2.</span> Liesjärvi (Second night)</h3>
+    <div class="outline-text-3" id="text-2-2">
+    <p>
+    We woke up to the second day still slightly tired from yesterday's trek, but still feeling powerful and up to the task of exploring the Liesjärvi national park next. But first things come first - coffee. Nothing happens on the trail until there's a kettle boiling on a fire.
+    </p>
+
+    <p>
+    Once again, we gathered our gear and relocated to Liesjärvi with our vehicle. We could've walked there, but yesterday's realizations about Ilvesreitti made us a bit doubtful of the connecting road between Ruostejärvi and Liesjärvi. Looking at the map, it would've been similar sort of boring as the return trip from Torronsuo yesterday, so we opted for a solution that gave us more time and energy to explore the more interesting environs instead.
+    </p>
+
+    <p>
+    Upon reaching Liesjärvi, we decided to put down our backpacks for a while, fill our water supplies from a nearby well and visit the close-by Hyypiö trail, which ascends to the Hyypiökallio. (Hyypiö in Finnish vernacular describes a weird, creepy person, but the archaic meaning of Hyypiö is that of an eagle-owl, so the place is literally called the Owl Cliff)
+    </p>
+
+    <p>
+    It was my 35th birthday, so being welcomed by the view from the cliff's summit was more than I could've hoped for my anniversary of existing on this Earth. We spent a short moment on the summit, having a discussion about how it has clearly been a place of significance for a long time before us, looking at how the rock had become bare from who knows how many activities along the centuries.
+    </p>
+
+    <p>
+    It was already close to noon, so we descended down, picked up our backpacks and headed northwards to Siltalahti to light some fires, have lunch and another round of coffee. Our destination was to reach a kota next to the lake Kaksvetinen (lit. double waters) and stay there for the night, provided there was no-one there.
+    </p>
+
+    <p>
+    The trek to Kaksvetinen was an eventful one. We travelled through a swamp we dubbed the "magic forest". It was a severely flooding mixture of swamps and dense old forests, with large fallen trees left to rot in the ground, which provides an elaborate microecosystem for all sorts of life to thrive in. In contrast, we also travelled through a horrendous tree farm, with all the old trees cut down and replaced with saplings. Sure, it's efficient and all wood is of the same age when it gets chopped, but I absolutely detest this kind of systematic, industrialized destruction of the environment. There are of course alternative and objectively better, less harmful ways to doing this, but do the forest owners or woodcutters care about such things?
+    </p>
+
+    <p>
+    The trail was cut off at one point, but we decided to brave through it anyway, as there were fresh footprints in the icy slush on the trail anyway and the detour would've been a kilometer-and-a-half of extra travel and we were quite tired already at that point. The kota was empty, with a few smoking embers in the fire pit. Clearly whoever's footprints we observed earlier stopped by there as well. It was already becoming dark, so once again we set out to camp there, fixing ourselves some firewood, have some supper and rest until tomorrow.
+    </p>
+    </div>
+    </div>
+
+    <div id="outline-container-org7157e4c" class="outline-3">
+    <h3 id="org7157e4c"><span class="section-number-3">2.3.</span> Liesjärvi (Third night)</h3>
+    <div class="outline-text-3" id="text-2-3">
+    <p>
+    It was a very cold morning on the third day. Kota protected us from the wind and it was quite a nice night overall, but getting up from the soft, warm confines of the sleeping bag was an exercise in willpower. We lit a small fire, prepared breakfast and started to clear out the camp.
+    </p>
+
+    <p>
+    Our first plan for the third day would be to return to the well to resupply our water, but through a different route, so we could see as much of the area as possible. Here we had the option of doing another ascension to a hill and descend back down, but reiterated on the idea since we knew there was a route around it, which would open us a view to the Liesjärvi lake itself. The route was a bit of a bore, simple rural road that was an easy travel, but again a fine tradeoff, as we'd conserve our strength for afternoon's more interesting trails. An ermine (or some close cousin thereof) greeted us on the way back to the well.
+    </p>
+
+    <p>
+    We crossed along the Kyynäränharju ridge to get to the southern shore. There was a small opening with a bridge, which acted as a funnel for the water, leaving it open and streaming. It was an interesting sight, as most of the lake was still covered in ice, sans the area around the bridge. We made our way towards Savilahti, a marked camping site, at which we were planning to spend the night. It was way too early for that though, so we hid our gear under a tarp in a spot shielded from any passerby's immediate gaze. So far, we hadn't come across any other travellers in the entire park, figuring it was safe enough to leave the backpacks there for a few hours.
+    </p>
+
+    <p>
+    Carrying only small packs, we continued southwards towards Korteniemi, a historic farmsite, where the forest ranger of Liesjärvi used to live with their family. We sat down for a while under an old apple tree, digging into some of the last of our rations and having a short rest before returning to the camp. Upon leaving the site, we came across the first other person in the entire park. Very calm and an unhurried place, this Liesjärvi.
+    </p>
+
+    <p>
+    We took a small detour and returned to Savilahti along a small rural road. As we were putting up our camp, a group of other campers arrived at Savilahti. They were a quiet bunch and didn't bother us the very least. We had a nice view of the sunset, before retiring to our separate accommodations.
+    </p>
+
+    <p>
+    I slept very pleasantly in my hammock, even if it was again a cold morning the next day. We'd make some coffee, pack our bags and start heading home after spending those three nights in the woods. I felt thoroughly transformed and content. Even having to wait at the train station or navigating through the masses of people at Tampere city center didn't dampen my spirits.
+    </p>
+    </div>
+    </div>
+
+    <div id="outline-container-org782571c" class="outline-3">
+    <h3 id="org782571c"><span class="section-number-3">2.4.</span> The absolute significance of this trip</h3>
+    <div class="outline-text-3" id="text-2-4">
+    <p>
+    During our trip, we had plenty of fruitful discussions, of willpower, of Simone Weil, of transcendentalism, self-cultivation and asubjectivity. One of the most powerful realizations I had, was how I've been a slave to my mysticism, which I effectively have been using as means to escape.
+    </p>
+
+    <p>
+    I've even written before of how aesthetics are a big part of my mind "cheating" itself into finding meaning, but I came to the conclusion that I have not met the world on its terms. It's almost as if interfacing with reality through a proxy - a distorted, kaleidoscopic vision, that won't let us get ahold of the essence of things. It's easy to get lost in fantasies when in the woods, trying to force ourselves to some mystical experience through force of will, instead of letting go of control and letting ourselves to experience the events as-is, being simply mindful of the present and not trying to force meaning.
+    </p>
+
+    <p>
+    I think this asubjectivity is the difference between just being a tourist in the forest and of being an actual participant in the experience. We are not separate from nature, but a part of that whole. Instead of surrendering to the fantasy of being some heroic wanderer in some Tolkienesque fantasy, I now just try to breathe in and appreciate the things that are there, currently present, instead of letting myself become weary of reality, to dive in some kind of dissonant oughts-to.
+    </p>
+
+    <p>
+    I feel like this latest forest trip has had a profound effect on my thinking and especially in bringing some of it into practice. I've since taken a habit of doing long walks in the forests close-by to my home. There are plenty of trails there that I just simply ignored, thinking they couldn't match my sense of aesthetics. I've found absolutely breathtaking locations by simply taking long, winding paths. Maybe this is in a way some perverse forrestgumpian attempt to make sense into my own existence by simply existing out there instead of in my apartment.
+    </p>
+
+    <p>
+    Similarly, I've taken up a project of learning more about the American transcendentalists. Thoreau's ideas of simple living and seeking to elevate ones self to a higher level through careful cultivation and frequent visits to nature is something I found very intriguing.
+    </p>
+
+    <p>
+    We're already planning for the next trip in the summer. Hopefully this time between will be fruitful for integrating all these experiences and learning more about the world and the human condition.
+    </p>
+
+    <p>
+    Also, it's 23th of April, have a happy International Pallas Cat Day!
+    </p>
+    </div>
+    </div>
+    ]]></description>
+</item>
+<item>
+  <title>Tech choices in gamedev</title>
+  <link>https://jarizleifr.github.io/posts/tech-choices-in-gamedev.html</link>
+  <author>antti.joutsi@tutamail.com (jarizleifr)</author>
+  <guid isPermaLink="false">https://jarizleifr.github.io/posts/tech-choices-in-gamedev.html</guid>
+  <pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate>
+
+  <description><![CDATA[<p>
+  One of the greatest misconceptions I've ever had about game development, is that it is a more high-level venture than business software. This comes after the idea, that games are fun, they're playful and they're somewhat chaotic, so obviously programming them in a dynamic language like <b>Python</b> or <b>Lua</b> would be preferrable to anything else?
+  </p>
+
+  <p>
+  This can be true to an extent, especially if we're trying to prototype something, coming up with lots of small things in a short period of time. The leeway dynamic programming languages give us at that point might make us a lot more productive in that time frame.
+  </p>
+
+  <p>
+  But looks and feels can deceive, and games are a way more complex and low-level endeavor than what you might expect.
+  </p>
+
+  <div id="outline-container-org5a045ba" class="outline-3">
+  <h3 id="org5a045ba"><span class="section-number-3">3.1.</span> I want all the abstractions!</h3>
+  <div class="outline-text-3" id="text-3-1">
+  <p>
+  I use <b>C#</b> as an example, as that's the language I'm most familiar with, but the same things kinda apply for languages of similar level, like <b>Java</b> and <b>Python</b>.
+  </p>
+
+  <p>
+  Usually games have a some sort of concept of an <b>Entity</b>, which is a singular <i>thing</i> in the game world. It can be a player character, an NPC, a consumable item, a piece of equipment, or whatever really.
+  </p>
+
+  <p>
+  Having programmed a long time in an object-oriented language, the first obvious ontological thought is of course, that <b>Entity</b> should be a class!
+  </p>
+
+  <p>
+  We won't use inheritance, because we might want to mix things around. Maybe we want to hold an unconscious NPC like an item. Maybe a sword can have spell charges in it, making it a consumable item as well.
+  </p>
+
+  <p>
+  So we go for composition. Our <b>Entity</b> class will contain components for any behaviors and that's the end of it.
+  </p>
+
+  <p>
+  We start implementing more object-oriented solutions like Command, Observer and Strategy patterns to facilitate better architecture in our game. Let's use functional idioms like LINQ, because it makes everything much more readable, and in the same vein, let's use lambda functions to provide extra flexibility.
+  </p>
+
+  <p>
+  Our architecture is very well defined. We use all the tools provided us by the language to great extent and success. We feel smart and good about our code.
+  </p>
+
+  <p>
+  We develop like this for months and everything goes smoothly, until we find out that our game has weird lag spikes. Indeed, all the extra allocations we do to use our precious objects, we put more and more pressure on the automatic garbage collector (GC). Each time the GC releases objects no longer in use, we get stutter in the game.
+  </p>
+  </div>
+  </div>
+
+  <div id="outline-container-org0a1e415" class="outline-3">
+  <h3 id="org0a1e415"><span class="section-number-3">3.2.</span> How can we fix this?</h3>
+  <div class="outline-text-3" id="text-3-2">
+  <p>
+  Obviously, lag spikes are awful. Our game might not even be that demanding visually, but we still fail to hit our FPS targets due to constant GC dumps.
+  </p>
+
+  <p>
+  We start rectifying the mistakes of allocating too much inside the game loop. LINQ has got to go, as it is one of the biggest culprits of hidden allocations. We painstakingly replace all of it with regular for/each loops instead. We might still use LINQ in places that are not so performance-critical, but it has no place inside the tightest corners of the game loop.
+  </p>
+
+  <p>
+  We might need to implement object pooling to prevent creation of new objects. We loved our lambda functions, but now we realize that they can allocate closures, if they use outside variables, resulting in garbage each time they're called.
+  </p>
+
+  <p>
+  Our compositional <b>Entity</b> class needs to go as well. Instead, we use preallocated arrays of structs (like an Entity-Component-System) to provide us a cache-coherent and performant way to create and destroy entities without allocation.
+  </p>
+
+  <p>
+  You can probably start to see where this is going&#x2026;
+  </p>
+
+  <p>
+  Suddenly we find ourselves fighting against all those abstractions we so carefully constructed. Those of us who work in general software development, know that those OOP patterns and language constructs are your bread and butter. These are the things we do constantly when developing for web or business. But in games it is less than ideal, as the requirements are vastly different.
+  </p>
+
+  <p>
+  A server application doesn't have FPS targets and web pages can get away with much less responsiveness than a video game running at vsynced rates.
+  </p>
+  </div>
+  </div>
+
+  <div id="outline-container-org2f19f39" class="outline-3">
+  <h3 id="org2f19f39"><span class="section-number-3">3.3.</span> The world-weariness hits</h3>
+  <div class="outline-text-3" id="text-3-3">
+  <p>
+  We were so proud for our abstractions and we had to tear them all down. What's even the point? We picked up a high-level language to make development easier, but we're left with nothing but libraries, some syntactic sugar and build tools from the language ecosystem. Our code reminds us nothing of a high-level code base, as we have only structs and other primitives littered all around.
+  </p>
+
+  <p>
+  Luckily, if <b>.NET</b> and <b>C#</b> is what you were indeed using, you are in an ideal position. It works exceptionally well as an intermediate language, because we have things like contiguous arrays, structs and ref returns, which are paramount constructs in low-level programming. We can even use unsafe blocks and raw pointers if we want to get that extra oomph out of it.
+  </p>
+
+  <p>
+  Like many <b>C++</b> programmers, who use a certain subset of the language, we can use a low-level subset of <b>C#</b>, opting out of the features that generate pressure on the GC. Other <b>C#</b> programmers will question your sanity and look at your code with fear in their hearts, but it is doable.
+  </p>
+
+  <p>
+  But the real hindsight here is, why start building a mountain in an intermediate-level language, if you really need a lower-level language to build that mountain?
+  </p>
+  </div>
+  </div>
+
+  <div id="outline-container-orgbedd142" class="outline-3">
+  <h3 id="orgbedd142"><span class="section-number-3">3.4.</span> Concluding thoughts</h3>
+  <div class="outline-text-3" id="text-3-4">
+  <p>
+  When I started out, I had no idea why <b>C++</b> or even <b>C</b> was so prevalent in game development. I assumed them to be somehow archaic languages that are used because of habit and culture instead of their technical qualities.
+  </p>
+
+  <p>
+  The bottom line is: Games are low-level. We're concerned with user inputs, graphics, and performance is paramount. We can't really cut corners here, if we want to deliver smooth gameplay. We can prototype things with dynamic and higher-level languages, but they're not necessarily the correct tool for building actual games.
+  </p>
+
+  <p>
+  As you might expect, this whole post is somewhat self-biographical and pretty much what I've gone through. I picked up <b>C#</b> assuming it's a good match for gamedev, until I realized it kinda wasn't, and then I learnt to use the language in an unorthodox, but semi-workable way to achieve what I was going for.
+  </p>
+
+  <p>
+  These days I usually I write more idiomatic <b>C#</b> and then strip away abstractions later, when I realize I need more performance, but I have already done a complete rewrite of game twice. I try to console myself, that I had no way of understanding the requirements back then, but it still bothers me, that I need to either continue working in such unoptimal ways, or rewrite <b>everything</b>.
+  </p>
+
+  <p>
+  There are times when I wish I had kept going with <b>C</b> or <b>C++</b> instead, but in the end, I'm not sure if there is any exactly optimal language to make games in. Each choice has their own warts and ultimately a game is not successful or unsuccessful because of their tech choices, although it can matter in the long haul.
+  </p>
+
+  <p>
+  I'm not sure if <b>Rust</b> is the silver bullet I first thought it to be, as it can make some of the more <i>chaotic</i> patterns of game development harder to reconcile with. <b>Zig</b> seems quite interesting, as well as <b>Jai</b>, but neither of those are not unfortunately production ready yet.
+  </p>
+
+  <p>
+  Not necessarily a very satisfying conclusion, but it is what it is. Tools are tools and sometimes an axe is all you have, and you need to hammer in some nails.
+  </p>
+  </div>
+  </div>
+  ]]></description>
+</item>
+<item>
+  <title>Learning to learn</title>
+  <link>https://jarizleifr.github.io/posts/learning-to-learn.html</link>
+  <author>antti.joutsi@tutamail.com (jarizleifr)</author>
+  <guid isPermaLink="false">https://jarizleifr.github.io/posts/learning-to-learn.html</guid>
+  <pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate>
+
+  <description><![CDATA[<p>
+  I am a late bloomer, as far as my career in technology is concerned. I was absolutely obsessed with computers in my childhood, but the interest waned as I reached my adult years and started to experiment more in art and music. For the most of my life, I was always just a user of technology, not an active participant in the culture or industry.
+  </p>
+
+  <p>
+  I wasn't much of a student during my high school or gymnasium years. I did the bare minimum and still managed just fine, but failed to <i>learn how to learn</i>. I was a talented, smart kid, but the problem with any innate talent is that once you reach the end of your teenage years, whatever head start you had will diminish, unless you work hard. I became complacent and arrogant and did not bother to improve myself. So I stagnated.
+  </p>
+
+  <p>
+  Even when I finally rediscovered my love for programming some 6-7 years back, I had zero ambitions. I was just a dabbler, trying to piece things together. I studied C++, Python and C# all simultaneously, trying to figure it out all by myself. It was just something I'd do to entertain myself, getting some satisfaction from the idea that I was a designer who'd know how to do some automations or tiny scripts for personal use, as if that was something extraordinary.
+  </p>
+
+  <p>
+  An important turning point during my path to becoming a fully realized developer was (curiously enough) pathfinding. Back when I used <b>Game Maker: Studio</b> as my main game development platform, I had relied on a C++ plugin (programmed by someone else) to provide me with pathfinding capabilities. At the time, dynamic libraries were way over my head and it could've been just magic and I wouldn't have known otherwise. I kinda wanted to move away from Game Maker and learn engine programming, but the pathfinding question dreaded me.
+  </p>
+
+  <p>
+  Somewhere during 2018, I was dabbling around in Unity and found out about <b>Breadth-First-Search</b> -algorithm, which I managed to implement and figure out a hill-climbing pathfinding with it. I was ecstatic! Something that I felt was always beyond my skills, was indeed achievable with some research into graphs and algorithms, and just playing around.
+  </p>
+
+  <p>
+  I had opened a Pandora's box with my realization. What else could I achieve? I felt like my entire mindset towards learning new things had changed. Suddenly the entire world was at my fingertips, I'd just need some coffee and time to figure it out.
+  </p>
+
+  <p>
+  This has been probably one of the most important realizations of my entire life. It comes as a second nature to me now and has been the greatest source of self-worth in decades. As developers we <i>figure things out</i> all day long. Whether it's a new technology, some new library in an otherwise familiar stack or just a bug in your existing application, sometimes you don't have the knowledge you need to solve a problem and your ability to perform your work will hinge on if you can successfully gain that knowledge, usually on a limited schedule.
+  </p>
+
+  <p>
+  We read technical documentation all the time. We spend our time accumulating information from discussions and codebases, learning about quirks and edge cases, while still somehow managing to be productive and create new things. And all this synergizes with the life at large. Learning right motions at the gym or learning how to play irish bouzouki or learning how to make medieval chainmail. It's all just a pattern of figuring things out. Or simply put, how to learn to learn. 
+  </p>
+  ]]></description>
+</item>
+<item>
+  <title>On bitterness</title>
+  <link>https://jarizleifr.github.io/posts/on-bitterness.html</link>
+  <author>antti.joutsi@tutamail.com (jarizleifr)</author>
+  <guid isPermaLink="false">https://jarizleifr.github.io/posts/on-bitterness.html</guid>
+  <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+
+  <description><![CDATA[<p>
+  I used to be an extremely bitter person. I also used to think I wasn't, which I think emphasizes the underlying issue with bitterness quite well. There's a saying, that bitterness is like drinking poison and expecting the other person to die. I don't know the origin for this aphorism and would expect it to be criminally misquoted all around the web, but I feel its core message stands. However, a bitter person will have a distorted understanding of the message. For them, this drinking of the poison is a noble sacrifice, a purifying act that makes them stronger, and separates them from everyone else. I too used to believe I was strong.
+  </p>
+
+  <p>
+  As humans, we tend to have all kinds of narratives and invented meanings about ourselves. The idea of gaining strength from resentment and anger is universal, and there are studies to suggest that the burst of adrenaline associated with emotional rage can elevate our physical prowess, but deep down, I find harboring hatred to be a fatal flaw and a weakness. Like anger, bitterness is a reaction to external events. We feel threatened or wronged by something or someone, thusly our well-being gets disturbed. For me, a person whose inner integrity is governed by outside forces, doesn't seem that strong, but instead spells the presence of fear, unstability and precariousness.
+  </p>
+
+  <p>
+  I've often been guilty of indulging in the narrative of being exceptionally smart and talented. I had an almost omnipotent view of myself, of being capable of anything, while at the same time wallowing in endless self-hatred and bitterness, blaming everyone else for my own shortcomings.
+  </p>
+
+  <p>
+  <i>How dare they keep me from achieving greatness!</i> 
+  </p>
+
+  <p>
+  I think anyone who's been bullied before will recognize this kind of desire for retribution and justice, for the unfair treatment they've received. (Pseudo)-intellectualism was my refuge from the pain I was inflicted with. I doubled down on the narrative and descended into mindless nihilism and apathy, while at the same time believing I was above everyone. I was falsely enlightened by my own delusions of my intellect and rationality, while other people with convictions and morals were always weak and dull in my eyes. Yet I could not shake the feeling of helplessness or inferiority, no matter how I tried to reframe myself as part of some perceived elite and my pain and bitterness as an unending source for power and inspiration. 
+  </p>
+
+  <p>
+  My most severe shortcoming was that I was completely oblivious to the lies I was telling myself, about myself. My main concern was to convince myself of being greater than my deeds or wisdom (or lack thereof) could allow. As I was unable to recognize my hubris, whenever I felt vulnerable, I would just shift the criteria I used to judge myself, so I would always stay on the top. Now contrast this with what I wrote before, about unstability. Is it indeed strength, to have to change the rules whenever feeling threatened? 
+  </p>
+
+  <p>
+  Being smart or having natural talent means very little in the grand scheme of things. None of that translates to success unless tempered with wisdom and compassion. I am not here because I am smart, but because of countless hours of self-reflection, therapy and taking back my sense of self from the reactive bitterness and anger, that was slowly strangling me to death.
+  </p>
+
+  <p>
+  David Foster Wallace gave an interview in 2003, <a href="https://www.youtube.com/watch?v=iGLzWdT7vGc">of which an unedited version can be found on YouTube</a> (seriously, watch it through, I really, really love this man), in which he said in passing: <i>"There's a lot of narcissism in self-hatred."</i> It's such a simple statement, but that opened some kind of a lock in my mind a few years back when I first encountered it, because I had never made an association between the two!
+  </p>
+
+  <p>
+  That paradox has been present in my life as long as I can remember, as I've fluctuated from feeling absolutely horrid about myself, to standing on an iridescent cloud of my own self-importance, feeling like I have the potential to become anything. Only recently I've started finding balance in my life, and it came from a place of humility, not retribution. The problem never was the unjustness of the pain I've had to endure, but my knee-jerk reaction to it, which was <i>bitterness</i>, that I just let build up over the years. Depression is an understandable and a fully human reaction to trauma, but bitterness in my case was feeding into it, keeping the worst insecurities and distorted narratives alive.
+  </p>
+
+  <p>
+  And to think, I thought my suffering was somehow unique and exceptionally noble. <i>How gravely mistaken have I been!</i>
+  </p>
+
+  <p>
+  These days I find more strength in truthfulness and sincerity, than I've ever found in bitterness. It's been a long road, and I hope there's still a long one ahead.
+  </p>
+
+  <p>
+  Peace!
+  </p>
+  ]]></description>
+</item>
+<item>
+  <title>Town serialization in Dregsrealm</title>
+  <link>https://jarizleifr.github.io/posts/town-serialization.html</link>
+  <author>antti.joutsi@tutamail.com (jarizleifr)</author>
+  <guid isPermaLink="false">https://jarizleifr.github.io/posts/town-serialization.html</guid>
+  <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+
+  <description><![CDATA[<p>
+  One of the bigger pain points I've recently had to deal with in Dregsrealm, was how to serialize towns when moving in and out of them, possibly from different directions, as well as saving the game when on top of the town tile, or when saving on the outskirts of the town, while still preserving entity positions correctly.
+  </p>
+
+
+  <div id="orgb4e2592" class="figure">
+  <p><img src="../img/dregs_town_world.jpg" alt="dregs_town_world.jpg" />
+  </p>
+  <p><span class="figure-number">Figure 1: </span>A town on the world map, with a road leading to it</p>
+  </div>
+
+  <p>
+  The world map in Dregsrealm is 320x320 world tiles and each zoomed-in tile is a chunk of 64x64 tiles. Loading all the tiles in memory at once would eat up 1,6 gigabytes of memory and slow down to a crawl, which is why the game only loads a 3x3 area of chunks at any given time, meaning we load the chunk on which the player is standing, as well as all the adjacent chunks. Even if the player's world position changes, the actual map tile indices go from [0,0] to [191,191].
+  </p>
+
+  <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+  <caption class="t-above"><span class="table-number">Table 1:</span> Player in the middle, with adjacent cells loaded</caption>
+
+  <colgroup>
+  <col  class="org-left" />
+
+  <col  class="org-left" />
+
+  <col  class="org-left" />
+
+  <col  class="org-left" />
+
+  <col  class="org-left" />
+  </colgroup>
+  <tbody>
+  <tr>
+  <td class="org-left">-</td>
+  <td class="org-left">-</td>
+  <td class="org-left">-</td>
+  <td class="org-left">-</td>
+  <td class="org-left">-</td>
+  </tr>
+
+  <tr>
+  <td class="org-left">-</td>
+  <td class="org-left">X</td>
+  <td class="org-left">X</td>
+  <td class="org-left">X</td>
+  <td class="org-left">-</td>
+  </tr>
+
+  <tr>
+  <td class="org-left">-</td>
+  <td class="org-left">X</td>
+  <td class="org-left">@</td>
+  <td class="org-left">X</td>
+  <td class="org-left">-</td>
+  </tr>
+
+  <tr>
+  <td class="org-left">-</td>
+  <td class="org-left">X</td>
+  <td class="org-left">X</td>
+  <td class="org-left">X</td>
+  <td class="org-left">-</td>
+  </tr>
+
+  <tr>
+  <td class="org-left">-</td>
+  <td class="org-left">-</td>
+  <td class="org-left">-</td>
+  <td class="org-left">-</td>
+  <td class="org-left">-</td>
+  </tr>
+  </tbody>
+  </table>
+
+  <p>
+  This chunking system has a side effect, that we need to normalize all entity positions each time we cross a chunk boundary, because our local zoomed-in map is only a 192x192 tile view to a much larger map. This alone isn't such a big deal, we just shift each entity according to the direction the player is going by cell size (64). If an entity ends up outside the loaded chunk matrix, we can just unspawn those entities. This lets us escape from hostile encounters, by just running further from enemies, which is a nice feature.
+  </p>
+
+  <p>
+  However, this becomes an issue, when we add towns to this equation.
+  </p>
+
+
+  <div id="org6e849d5" class="figure">
+  <p><img src="../img/dregs_town.jpg" alt="dregs_town.jpg" />
+  </p>
+  <p><span class="figure-number">Figure 2: </span>The town gate and a townperson next to main road</p>
+  </div>
+
+  <p>
+  We don't want to unspawn town entities (I'll just call them <i>townies</i> from now on), as we want to persist things happening in towns. If our town generation gave us a guild master called Ortog, we want Ortog to be there even after leaving the town and returning next day. (Unless something actually happened to him, but town events are a thing of the future, and not related to this issue at hand.) 
+  </p>
+
+  <p>
+  We can also enter towns from any direction, or by teleportation, which means that townie positions can be invalidated at any time.
+  </p>
+
+  <p>
+  My solution for this is to always normalize town positions to be based on [0,0], instead of whatever the townies' local positions on the game map are. Because player always occupies the central chunk, we know that [0,0] chunk must always be upper-left from the player. 
+  </p>
+
+  <p>
+  If we're at the town chunk and save the game, all townies are shifted by [-64,-64]. When we load the game, the townies are shifted back according to our position. As our position is the same as before, townies are nicely returned to their original positions.
+  </p>
+
+  <div class="org-src-container">
+  <label class="org-src-name"><span class="listing-number">Listing 1: </span>The normalization method used in the game</label><pre class="src src-csharp">internal static Vec2 GetTownieNormalization(Vec2 worldPos, Vec2 townPos, bool invert = false) =&gt; invert
+  ? new Vec2((townPos.X - worldPos.X + 1) * CELL_SIZE, (townPos.Y - worldPos.Y + 1) * CELL_SIZE)
+  : new Vec2((worldPos.X - townPos.X - 1) * CELL_SIZE, (worldPos.Y - townPos.Y - 1) * CELL_SIZE);
+  </pre>
+  </div>
+
+  <p>
+  If we teleport out of the city, all townies are again shifted by [-64,-64] and serialized with the town. Next time we arrive to the town by foot, from some other direction. Our world position has changed, so this time the townies are shifted according to our new position, hopefully being at the same relative places we originally found them.
+  </p>
+
+  <div id="outline-container-org4d3f897" class="outline-3">
+  <h3 id="org4d3f897"><span class="section-number-3">6.1.</span> Conclusion</h3>
+  <div class="outline-text-3" id="text-6-1">
+  <p>
+  I'm not sure if I'm 100% happy with the solution, but so far this little normalization dance has made the game one step closer to having functional cities (which is the last thing missing from the vertical slice that I need for releasing the pre-alpha version).
+  </p>
+
+  <p>
+  Now that I can persist townies, I can implement shops with inventories that change only after certain amount of time has passed.
+  </p>
+
+  <p>
+  I've wondered if I should just refactor the entire wilderness system to use global coordinates, instead of having to normalize entities on boundary changes, but that is a big change at this point and I suppose it's a tradeoff between normalizing entities or normalizing map indexing instead. I suppose the alternative would be slightly more intuitive, but I don't know if it's worth worrying right now. Anyway, if I decide to refactor this again, I'd like to take that as an opportunity to clean up other stuff related to how maps work, maybe even splitting world, wilderness and interior maps to their own respective classes. But like I said, at this point I'm more concerned with actually getting the pre-alpha to a presentable state.
+  </p>
+
+  <p>
+  I was seriously overthinking this already and almost decided to get rid of townie serialization altogether, but I'm happy I managed to at least get it working, as it lets me concentrate on something else for a change.
+  </p>
+
+  <p>
+  I feel this is a pretty typical example of how my development process goes. First hack in the feature using whatever there's already in place, then forget about it, ultimately to return on it later with a better view of patterns and inconsistencies, slowly refactoring the feature into something more succinct and fitting for the big picture.
+  </p>
+  </div>
+  </div>
+  ]]></description>
+</item>
+<item>
+  <title>Hammocking at Repovesi, Finland</title>
+  <link>https://jarizleifr.github.io/posts/pilgrimages-2022-repovesi.html</link>
+  <author>antti.joutsi@tutamail.com (jarizleifr)</author>
+  <guid isPermaLink="false">https://jarizleifr.github.io/posts/pilgrimages-2022-repovesi.html</guid>
+  <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+
+  <description><![CDATA[<p>
+  After the recent pilgrimage to the Evo forests, we already made plans to do another trip in the summer, just to get the feel of how different it is from winter camping. I have of course camped in the summer before, but all occurences have been as a part of a way bigger group, which might've been somewhat detrimental to my enjoyment. I've only relatively recently started to explore more of the local nature and a big part in my increasing interest in camping was played by actually finding travel companions who are pleasant to be around with and operate at the same philosophical wavelengths. Late night discussions around the campfire are only as good as the participants.
+  </p>
+
+  <p>
+  Our original plan was to make a week-long excursion to the Koli National Park, but due to some unseen circumstances, we had to downsize our ambitions a bit, opting for a two-nighter at the Repovesi National Park instead, which was more familiar territory. Repovesi wasn't exactly unknown for myself either, having visited there once, some 20 years ago, but the only things I could remember, were the suspension bridge of Lapinsalmi and the gorgeous gorges that cut through the forests, almost as if some antediluvian laser had torn the earth aeons ago, only for the nature to reclaim the area again. Of course, the ice age that formed these magnificent sights is as exciting explanation as anything involving lasers, but I digress.
+  </p>
+
+  <p>
+  We left on a slightly rainy Wednesday morning, got ourselves some supplies and beelined towards Lapinsalmi. We travelled some 5 kilometers towards the Kuutinkanava, which is an old lumber channel between Repovesi and Tervajärvi. After having some lunch, we begun an ambitious ascend to the towering cliffs of Kuutinlahti, powered by the sheer excitement of getting to see the entire landscape from higher ground. We continued our mountaineering towards the Mustalamminvuori observation tower, but it was starting to get a bit rainy, so we omitted the ascent to the tower and instead made our way towards Olhava, which was to be our first night's campsite.
+  </p>
+
+  <p>
+  Olhavanvuori was a magnificent sight, a huge rock cliff frequented by climbers. The cliff had some interesting features, evoking some primordial feelings, almost as if some ettin was turned to stone on the rock face. There's actually some cave paintings from 6000 years ago at Olhavanvuori, meaning that the place has been of some importance to whoever called these cliffs their home at that time. 
+  </p>
+
+
+  <div id="orgc38defa" class="figure">
+  <p><img src="../img/2022-repovesi-vipunen.jpg" alt="2022-repovesi-vipunen.jpg" />
+  </p>
+  </div>
+
+  <p>
+  Right after getting our hammocks up at Olhava, a family of four came from the forest, deciding to put up their tents a bit too close to our setup. Out of courtesy and not wanting to seem inhospitable on common ground, we packed up instead and started looking for another campsite. We had to walk quite a way back to find the place we had made a mental note of before, foreseeing that there might indeed be other campers at Olhava. Our new campsite was close to the Kuutti fire pit, which we made into our main office for sustenance and coffee imbibement. 
+  </p>
+
+
+  <div id="orgc902654" class="figure">
+  <p><img src="../img/2022-repovesi-kuutti.jpg" alt="2022-repovesi-kuutti.jpg" />
+  </p>
+  </div>
+
+  <p>
+  I had bought myself a DD Hammocks Frontline, as well as the appropriate 3x3 meter tarp from the same manufacturer. I had never slept in a camping hammock before, so I was curious about that as well. I had some worries about forgetting about all the knots I used to know back in the day, when I was in the scouts, but seems like DD Hammocks know what they're doing and the ropes are just elastic enough to make it easy to untangle all sorts of Gordian knots made with poor planning. Setting up the hammock took some trial and error, but I was pretty pleased with the configuration I came up with for the first night. It rained a bit during the night, but we managed to stay completely dry.
+  </p>
+
+
+  <div id="orgcdd12b6" class="figure">
+  <p><img src="../img/2022-repovesi-hammock.jpg" alt="2022-repovesi-hammock.jpg" />
+  </p>
+  </div>
+
+  <p>
+  The second day was less eventful, as we managed to find a very peaceful spot on the opposite side of the bay. There seemed to be more people at the park, but none presented themselves at our campsite this time around. The day was spent basking in the sun, reading Meister Eckhart and just enjoying existing in that moment. I think this is the crucial difference when comparing to winter camping - one can have a much less serious outlook on life, when you won't literally die of hypothermia in the case if you get lost or can't find shelter. Summer has inconveniences, like sunburn and mosquitoes, but the Finnish summer doesn't tend to outright murder you (unless elderly and/or suffering from heart conditions, also maybe this'll change as the climate change progresses, turning our previously comfortable camping experiences into scorching hellscapes of existence). 
+  </p>
+
+  <p>
+  Sleeping in the hammock was way more comfortable than I expected, although my sleeping bag was definitely overkill for the summer temperatures. I don't think the temperature at any point went below 11°C. In practice, I had to come out of the bag few times a night just to cool off a bit, until I was too cold and had to crawl back in.
+  </p>
+
+  <p>
+  Compared to the latest excursion to Evo, there's a big difference in nights. Gone is the stillness of the wintery night, replaced by the cacophony of mosquitoes patrolling outside the bug net of the hammock, almost sounding like something out of György Ligeti's Kyrie. Birdsongs are also a definitive feature of a summer forest. The amount of life at Repovesi is something that to me came as a slight surprise, even if I at some subconscious level understood that we're visiting a place that many creatures call their home and we are but transients there. During our treks we saw a crow stealing eggs from a gull. A black adder basking in the sunlight hissed at me as I made my way past. We saw an elk go over the road as we were leaving.
+  </p>
+
+  <p>
+  In hindsight, I wish I had taken a few more photos, but then again, I do not want to get in to the habit of experiencing the world through a lens. I'd much rather describe my experiences in words. As we left Repovesi for Kouvola, there was an aura of contentedness, of being tired and aching, but full of newfound vigor, sparked by the mere act of unwinding in the forest. A theme that sprung up in our discussions multiple times, was being in the state of flow, being in the zone, almost as if one's consciousness is transported to some other realm of existence. I recently read Aldous Huxley's Heaven &amp; Hell and I immediately found parallels to our journey through Repovesi. Forest is truly a church, a holy place of its own right, one that can evoke all sorts of emotions, if one is mindful enough to inhale the world and savor it.
+  </p>
+  ]]></description>
+</item>
+</channel>
+</rss>
