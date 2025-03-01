@@ -1,19 +1,19 @@
-@import "variables";
+@use "variables" as vars;
 
 nav {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: $header-height;
-    background-color: $primary;
-    box-shadow: 0 0.1rem 0.5rem rgba($black, 0.25);
+    height: vars.$header-height;
+    background-color: vars.$primary;
+    box-shadow: 0 0.1rem 0.5rem rgba(vars.$black, 0.25);
     z-index: 10;
     
     > ol {
 	margin: 0.3rem auto 0 auto;
 	padding: 0 2rem 0 2rem;
-	max-width: $content-width;
+	max-width: vars.$content-width;
 	list-style-type: none;
 	display: flex;
 	align-items: center;
@@ -34,15 +34,15 @@ nav {
 
 	    &:not(:first-child):not(:last-child) {
 		padding-right: 1rem;
-		border-right: 1px solid $white;
+		border-right: 1px solid vars.$white;
 	    }
 	    
 	    a, a:visited, a:active {
 		text-transform: uppercase;
-		color: $on-primary;
+		color: vars.$on-primary;
 
 		&:hover {
-		    color: $on-primary;
+		    color: vars.$on-primary;
 		}
 	    }
 	}

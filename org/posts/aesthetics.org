@@ -1,7 +1,7 @@
 #+TITLE: Aesthetics of contemplative practice
 #+DATE: <2021-11-23>
 #+KEYWORDS: philosophy
-#+DESCRIPTION: With the right kind of aesthetics, it becomes easier to uphold the ascetic virtues I hold so dear.
+#+EXCERPT: With the right kind of aesthetics, it becomes easier to uphold the ascetic virtues I hold so dear.
 
 I am a quite private person. While I often have much to say about topics that most pique my interest, my day-to-day life is rather uneventful and even ascetic at times. I wake up early, train and fast regularly and I try to read and meditate each day. However, such an almost ritualistic regimen might be hard to sustain on its own, even if its physical and mental benefits are obvious. Mind is a weird contraption and it rarely wants to do the right thing.
 

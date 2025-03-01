@@ -1,7 +1,7 @@
 #+TITLE: I post, therefore I am
 #+DATE: <2021-12-01>
 #+KEYWORDS: life,tech
-#+DESCRIPTION: Decreasing my online presence and having less of pointless feeds to scroll has been a goal of mine for a while.
+#+EXCERPT: Decreasing my online presence and having less of pointless feeds to scroll has been a goal of mine for a while.
 
 I recently deleted my Facebook account, and now in slightly hazy, not entirely thought-through circumstances I ended up disabling my Instagram account as well, but to be honest, I don't think I want to reactivate it now that I've already taken that step. Decreasing my online presence and having less of pointless feeds to scroll has been a goal of mine for a while.
 

@@ -1,7 +1,7 @@
 #+TITLE: Ranged combat in Dregsrealm
 #+DATE: <2021-09-25>
 #+KEYWORDS: gamedev
-#+DESCRIPTION: One of the bigger features still missing from Dregsrealm is ranged combat.
+#+EXCERPT: One of the bigger features still missing from Dregsrealm is ranged combat.
 
 One of the bigger features still missing from Dregsrealm is ranged combat. After revamping my effects system, plenty of monsters got some quite nasty status-effect causing melee attacks, so being able to pick them out from afar started becoming a necessity.
 

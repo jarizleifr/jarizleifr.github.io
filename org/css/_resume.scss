@@ -1,4 +1,4 @@
-@import "variables";
+@use "variables" as vars;
 
 .experience {
     div {
@@ -7,7 +7,7 @@
 	white-space: nowrap;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	color: $light-grey;
+	color: vars.$light-grey;
 	
 	h4 {
 	    margin: 0;
@@ -15,7 +15,7 @@
     }
 
     h3 {
-	color: $secondary;
+	color: vars.$secondary;
 	margin-top: 0.5rem;
     }
 }

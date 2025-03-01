@@ -1,4 +1,4 @@
-@import "variables";
+@use "variables" as vars;
 
 figure {
     margin: 2rem 0 2rem 0;
@@ -10,7 +10,7 @@ figure {
 }
 
 figcaption {
-    color: $light-grey;
+    color: vars.$light-grey;
     font-size: 1.4rem;
 }
 

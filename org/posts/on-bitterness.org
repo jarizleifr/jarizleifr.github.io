@@ -1,7 +1,7 @@
 #+TITLE:On bitterness
 #+DATE: <2022-07-01>
 #+KEYWORDS: life,philosophy
-#+DESCRIPTION: I used to be an extremely bitter person. I also used to think I wasn't, which I think emphasizes the underlying issue with bitterness quite well.
+#+EXCERPT: I used to be an extremely bitter person. I also used to think I wasn't, which I think emphasizes the underlying issue with bitterness quite well.
 
 I used to be an extremely bitter person. I also used to think I wasn't, which I think emphasizes the underlying issue with bitterness quite well. There's a saying, that bitterness is like drinking poison and expecting the other person to die. I don't know the origin for this aphorism and would expect it to be criminally misquoted all around the web, but I feel its core message stands. However, a bitter person will have a distorted understanding of the message. For them, this drinking of the poison is a noble sacrifice, a purifying act that makes them stronger, and separates them from everyone else. I too used to believe I was strong.
 

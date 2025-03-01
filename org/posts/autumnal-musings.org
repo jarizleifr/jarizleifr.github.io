@@ -1,7 +1,7 @@
 #+TITLE: Autumnal musings
 #+DATE: <2021-11-07>
 #+KEYWORDS: life
-#+DESCRIPTION: Today is the last day of my autumn vacation. It has been a pretty quiet, with not much activity, which to be honest, suits me just fine.
+#+EXCERPT: Today is the last day of my autumn vacation. It has been a pretty quiet, with not much activity, which to be honest, suits me just fine.
 
 Today is the last day of my autumn vacation. It has been a pretty quiet, with not much activity, which to be honest, suits me just fine. I like taking a small break, just to collect my thoughts in solitude before the holiday season.
 

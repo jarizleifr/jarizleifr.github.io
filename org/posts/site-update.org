@@ -1,7 +1,7 @@
 #+TITLE: Site update
 #+DATE: <2021-12-19>
 #+KEYWORDS: life,tech
-#+DESCRIPTION: I updated the site a bit. I've been pretty busy and somehow the ramshackle state of this blog has slightly decreased my motivation to publish anything.
+#+EXCERPT: I updated the site a bit. I've been pretty busy and somehow the ramshackle state of this blog has slightly decreased my motivation to publish anything.
 
 I updated the site a bit. I've been pretty busy and somehow the ramshackle state of this blog has slightly decreased my motivation to publish anything. I've written plenty of drafts, but somehow I needed to address a few things beforehand, especially now that Yule holidays are coming soon and I'd rather just write and publish things instead of tinkering around the website.
 

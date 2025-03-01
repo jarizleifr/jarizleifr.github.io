@@ -1,6 +1,6 @@
 # Makefile for Jarizleifr blog
 
-ORG_SOURCES = $(wildcard **/*.org) $(wildcard html/*.html) publish.el
+ORG_SOURCES = $(wildcard **/*.org) $(wildcard html/*.html) elisp/publish.el
 ORG_SENTINEL = docs/.org.sentinel
 
 CSS_SOURCES = $(wildcard org/css/*.scss)
@@ -13,19 +13,19 @@ GALLERY_SENTINEL = docs/.gallery.sentinel
 
 all: build 
 
-publish: publish.el
+publish: elisp/publish.el
 	@echo "Publishing... with current Emacs configurations."
-	emacs --batch --load publish.el --funcall org-publish-all
+	emacs --batch --load elisp/publish.el --funcall org-publish-all
 
-publish_no_init: publish.el
+publish_no_init: elisp/publish.el
 	@echo "Publishing... with --no-init."
-	emacs --batch --no-init --load publish.el --funcall org-publish-all
+	emacs --batch --no-init --load elisp/publish.el --funcall org-publish-all
 
 build: $(ORG_SENTINEL) $(CSS_TARGETS) $(GALLERY_SENTINEL)
 
 serve:
 	mkdir -p docs
-	cmd /c start /d docs python3 -m http.server
+	cd docs && python3 -m http.server
 
 watch: serve
 	while true; do make build -q || make build; sleep 3.0; done

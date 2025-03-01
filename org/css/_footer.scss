@@ -1,16 +1,16 @@
-@import "variables";
+@use "variables" as vars;
 
 footer {
-    border-top: $footer-border solid $black;
+    border-top: vars.$footer-border solid vars.$black;
     margin: 0 auto 0 auto;
     padding: 0 2rem 0 2rem;
     text-align: center;
-    max-width: $content-width;
-    background-color: $surface;
-    height: $footer-height;
+    max-width: vars.$content-width;
+    background-color: vars.$surface;
+    height: vars.$footer-height;
 
-    @media screen and (max-width: $breakpoint-small) {
-	height: $footer-height-small;
+    @media screen and (max-width: vars.$breakpoint-small) {
+	height: vars.$footer-height-small;
     }
     
     .contact {
@@ -25,8 +25,8 @@ footer {
 	    padding: 1rem 0 1rem 0;
 	    a > img {
 		margin: 0 0.25rem 0 0.25rem;
-		fill: $black;
-		background-color: $secondary;
+		fill: vars.$black;
+		background-color: vars.$secondary;
 		border-radius: 50%;
 		max-width: 2rem;
 		max-height: 2rem;
@@ -41,7 +41,7 @@ footer {
 	p {
 	    margin: 0.5rem 0 0 0;
 	    font-size: 1.2rem;
-	    color: $light-grey;
+	    color: vars.$light-grey;
 	}
     }
 }

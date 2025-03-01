@@ -1,9 +1,9 @@
-@import "variables";
+@use "variables" as vars;
 
 html, body {
-    background-color: $background;
-    color: $on-background;
-    font-size: $base-size;
+    background-color: vars.$background;
+    color: vars.$on-background;
+    font-size: vars.$base-size;
     font-family: "Tahoma", "Verdana", "Segoe", sans-serif;
     margin: 0;
     padding: 0;
@@ -11,18 +11,18 @@ html, body {
 }
 
 #content {
-    max-width: $content-width;
+    max-width: vars.$content-width;
     margin: 0 auto 0 auto;
-    padding: #{$header-height + 2rem} 2rem 2rem 2rem;
-    min-height: calc(100vh - #{$header-height + $footer-height + $footer-border + 4rem});
-    background: $surface;
+    padding: #{vars.$header-height + 2rem} 2rem 2rem 2rem;
+    min-height: calc(100vh - #{vars.$header-height + vars.$footer-height + vars.$footer-border + 4rem});
+    background: vars.$surface;
 
-    @media screen and (max-width: $breakpoint-small) {
-	min-height: calc(100vh - #{$header-height + $footer-height-small + $footer-border + 4rem});
+    @media screen and (max-width: vars.$breakpoint-small) {
+	min-height: calc(100vh - #{vars.$header-height + vars.$footer-height-small + vars.$footer-border + 4rem});
     }
     
     h1 {
-	color: $secondary;
+	color: vars.$secondary;
     }
 }
 
@@ -30,10 +30,10 @@ html, body {
     font-size: 1.6rem;
     
     a, a:visited, a:active {
-	color: $light-pink;
+	color: vars.$light-pink;
 
 	&:hover {
-	    color: $white;
+	    color: vars.$white;
 	}
     }
 }
@@ -51,7 +51,7 @@ header {
 
     h4 {
 	margin: 0;
-	color: $light-grey;
+	color: vars.$light-grey;
     }
 }
 .embed-video {

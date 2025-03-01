@@ -1,3 +1,5 @@
+@use "variables" as vars;
+
 h1 {
     font-size: 2.0rem;
     text-transform: uppercase;
@@ -31,11 +33,11 @@ p, li, dd, dt {
 }
 
 a, a:visited, a:active {
-    color: $link-color;
+    color: vars.$link-color;
     text-decoration: none;
 
     &:hover {
-	color: $link-hover-color;
+	color: vars.$link-hover-color;
     }
 }
 

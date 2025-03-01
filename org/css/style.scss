@@ -1,12 +1,12 @@
-@import "variables";
-@import "global";
-@import "typography";
-@import "nav";
-@import "footer";
-@import "figure";
+@forward "variables";
+@forward "global";
+@forward "typography";
+@forward "nav";
+@forward "footer";
+@forward "figure";
 
-@import "posts-list";
-@import "about-me";
-@import "gallery";
-@import "resume";
+@forward "posts-list";
+@forward "about-me";
+@forward "gallery";
+@forward "resume";
 

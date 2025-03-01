@@ -1,7 +1,7 @@
 #+TITLE: Learning to learn
 #+DATE: <2022-11-05>
 #+KEYWORDS: life,tech
-#+DESCRIPTION: I am a late bloomer, as far as my career in technology is concerned.
+#+EXCERPT: I am a late bloomer, as far as my career in technology is concerned.
 
 I am a late bloomer, as far as my career in technology is concerned. I was absolutely obsessed with computers in my childhood, but the interest waned as I reached my adult years and started to experiment more in art and music. For the most of my life, I was always just a user of technology, not an active participant in the culture or industry.
 
