@@ -142,7 +142,7 @@
   (concat "#+TITLE: " title "\n"
           "#+EMAIL: " "antti.joutsi@tutamail.com\n"
           "#+AUTHOR: " "jarizleifr\n"
-          "#+DESCRIPTION: " "this is a test description" "\n"
+          "#+DESCRIPTION: " default-description "\n"
           (org-list-to-subtree list)))
 ;; ))
 
@@ -209,6 +209,7 @@
          :exclude "rss.org\\|archive.org"
          :publishing-directory "docs/"
          :publishing-function jzlfr-rss-publish
+         :rss-image-url "https://jarizleifr.github.io/favicon-32x32.png"
          :html-link-home "https://jarizleifr.github.io/"
          :html-link-use-abs-url t
          :html-link-org-files-as-html t
